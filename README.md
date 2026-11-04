@@ -163,3 +163,7 @@ Core engineering discipline: debugging, TDD, verification, simplification, and s
 - `using-superpowers`
 - `verification-before-completion`
 - `writing-skills`
+
+## License
+
+[MIT](LICENSE), except skills that declare their own license in `SKILL.md` frontmatter or a bundled license file, which keep it: `frontend-design` (Apache-2.0), `scikit-learn` and `statsmodels` (BSD-3-Clause), `polars` (see its frontmatter).
