@@ -1,0 +1,15 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "SaaS integration and automation skills for Airtable, Trello, Google Sheets, Shopify, and more",
+  "author": {
+    "name": "ErrorProofDev"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Automation",
+    "shortDescription": "SaaS integration and automation skills for Airtable, Trello, Google Sheets, Shopify, and more",
+    "developerName": "ErrorProofDev",
+    "category": "Coding"
+  }
+}

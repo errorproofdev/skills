@@ -1,0 +1,15 @@
+{
+  "name": "cloud",
+  "version": "1.0.0",
+  "description": "Cloud architecture, DevOps, observability, incident response, and deployment skills",
+  "author": {
+    "name": "ErrorProofDev"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Cloud",
+    "shortDescription": "Cloud architecture, DevOps, observability, incident response, and deployment skills",
+    "developerName": "ErrorProofDev",
+    "category": "Coding"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "ai",
+  "version": "1.0.0",
+  "description": "LLM application, agent, MCP server, evaluation, and model training skills",
+  "author": {
+    "name": "ErrorProofDev"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Ai",
+    "shortDescription": "LLM application, agent, MCP server, evaluation, and model training skills",
+    "developerName": "ErrorProofDev",
+    "category": "Coding"
+  }
+}

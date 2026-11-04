@@ -1,0 +1,15 @@
+{
+  "name": "research",
+  "version": "1.0.0",
+  "description": "Web scraping, search, browser automation, and web data collection skills",
+  "author": {
+    "name": "ErrorProofDev"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Research",
+    "shortDescription": "Web scraping, search, browser automation, and web data collection skills",
+    "developerName": "ErrorProofDev",
+    "category": "Coding"
+  }
+}

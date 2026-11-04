@@ -75,6 +75,126 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Coding"
+    },
+    {
+      "name": "marketing",
+      "source": {
+        "source": "local",
+        "path": "./plugins/marketing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    },
+    {
+      "name": "research",
+      "source": {
+        "source": "local",
+        "path": "./plugins/research"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    },
+    {
+      "name": "backend",
+      "source": {
+        "source": "local",
+        "path": "./plugins/backend"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    },
+    {
+      "name": "azure",
+      "source": {
+        "source": "local",
+        "path": "./plugins/azure"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    },
+    {
+      "name": "ai",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ai"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    },
+    {
+      "name": "cloud",
+      "source": {
+        "source": "local",
+        "path": "./plugins/cloud"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    },
+    {
+      "name": "automation",
+      "source": {
+        "source": "local",
+        "path": "./plugins/automation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    },
+    {
+      "name": "media",
+      "source": {
+        "source": "local",
+        "path": "./plugins/media"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    },
+    {
+      "name": "mobile",
+      "source": {
+        "source": "local",
+        "path": "./plugins/mobile"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    },
+    {
+      "name": "specialized",
+      "source": {
+        "source": "local",
+        "path": "./plugins/specialized"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
     }
   ]
 }

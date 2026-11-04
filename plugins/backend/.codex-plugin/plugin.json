@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "API design, backend architecture, language, functional programming, and systems skills",
+  "author": {
+    "name": "ErrorProofDev"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Backend",
+    "shortDescription": "API design, backend architecture, language, functional programming, and systems skills",
+    "developerName": "ErrorProofDev",
+    "category": "Coding"
+  }
+}

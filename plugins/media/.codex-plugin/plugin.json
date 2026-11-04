@@ -1,0 +1,15 @@
+{
+  "name": "media",
+  "version": "1.0.0",
+  "description": "Image, video, animation, and document generation skills",
+  "author": {
+    "name": "ErrorProofDev"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Media",
+    "shortDescription": "Image, video, animation, and document generation skills",
+    "developerName": "ErrorProofDev",
+    "category": "Coding"
+  }
+}

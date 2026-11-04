@@ -1,0 +1,8 @@
+{
+  "name": "ai",
+  "version": "1.0.0",
+  "description": "LLM application, agent, MCP server, evaluation, and model training skills",
+  "author": {
+    "name": "ErrorProofDev"
+  }
+}

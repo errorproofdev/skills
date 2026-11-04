@@ -9,43 +9,113 @@
       "name": "frontend",
       "source": "./plugins/frontend",
       "description": "UI design, design systems, Tailwind, Apple HIG, Three.js, TypeScript/JavaScript, and E2E testing skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "category": "frontend"
     },
     {
       "name": "data",
       "source": "./plugins/data",
-      "description": "SQL, Postgres, migrations, DataFrames, statistics, ML, and analytics dashboard skills",
-      "version": "1.0.0",
+      "description": "SQL, Postgres, migrations, DataFrames, statistics, ML, datasets, and analytics dashboard skills",
+      "version": "1.1.0",
       "category": "data"
     },
     {
       "name": "security",
       "source": "./plugins/security",
       "description": "Secrets, compliance, hardening, code auditing, and authorized penetration testing skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "category": "security"
     },
     {
       "name": "finance",
       "source": "./plugins/finance",
-      "description": "Quant analysis, market data, financial modeling, payments, and pricing skills",
-      "version": "1.0.0",
+      "description": "Quant analysis, market data, financial modeling, payments, pricing, and monetization skills",
+      "version": "1.1.0",
       "category": "finance"
     },
     {
       "name": "workflow",
       "source": "./plugins/workflow",
       "description": "Planning, execution, git, pull request, code review, and agent orchestration skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "category": "workflow"
     },
     {
       "name": "essential",
       "source": "./plugins/essential",
-      "description": "Core engineering discipline: debugging, TDD, verification, simplification, and skill authoring",
-      "version": "1.0.0",
+      "description": "Core engineering discipline: debugging, TDD, testing, verification, simplification, shell, and skill authoring",
+      "version": "1.1.0",
       "category": "essential"
+    },
+    {
+      "name": "marketing",
+      "source": "./plugins/marketing",
+      "description": "Marketing, SEO, ads, copywriting, email, social, sales, and growth skills",
+      "version": "1.0.0",
+      "category": "marketing"
+    },
+    {
+      "name": "research",
+      "source": "./plugins/research",
+      "description": "Web scraping, search, browser automation, and web data collection skills",
+      "version": "1.0.0",
+      "category": "research"
+    },
+    {
+      "name": "backend",
+      "source": "./plugins/backend",
+      "description": "API design, backend architecture, language, functional programming, and systems skills",
+      "version": "1.0.0",
+      "category": "backend"
+    },
+    {
+      "name": "azure",
+      "source": "./plugins/azure",
+      "description": "Azure SDK skills for Python, TypeScript, Java, .NET, and Rust",
+      "version": "1.0.0",
+      "category": "azure"
+    },
+    {
+      "name": "ai",
+      "source": "./plugins/ai",
+      "description": "LLM application, agent, MCP server, evaluation, and model training skills",
+      "version": "1.0.0",
+      "category": "ai"
+    },
+    {
+      "name": "cloud",
+      "source": "./plugins/cloud",
+      "description": "Cloud architecture, DevOps, observability, incident response, and deployment skills",
+      "version": "1.0.0",
+      "category": "cloud"
+    },
+    {
+      "name": "automation",
+      "source": "./plugins/automation",
+      "description": "SaaS integration and automation skills for Airtable, Trello, Google Sheets, Shopify, and more",
+      "version": "1.0.0",
+      "category": "automation"
+    },
+    {
+      "name": "media",
+      "source": "./plugins/media",
+      "description": "Image, video, animation, and document generation skills",
+      "version": "1.0.0",
+      "category": "media"
+    },
+    {
+      "name": "mobile",
+      "source": "./plugins/mobile",
+      "description": "Mobile, desktop, and game development skills",
+      "version": "1.0.0",
+      "category": "mobile"
+    },
+    {
+      "name": "specialized",
+      "source": "./plugins/specialized",
+      "description": "Science, health, legal, quality, and other domain-specific skills",
+      "version": "1.0.0",
+      "category": "specialized"
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "name": "marketing",
+  "version": "1.0.0",
+  "description": "Marketing, SEO, ads, copywriting, email, social, sales, and growth skills",
+  "author": {
+    "name": "ErrorProofDev"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Marketing",
+    "shortDescription": "Marketing, SEO, ads, copywriting, email, social, sales, and growth skills",
+    "developerName": "ErrorProofDev",
+    "category": "Coding"
+  }
+}

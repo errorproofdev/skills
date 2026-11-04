@@ -1,0 +1,15 @@
+{
+  "name": "specialized",
+  "version": "1.0.0",
+  "description": "Science, health, legal, quality, and other domain-specific skills",
+  "author": {
+    "name": "ErrorProofDev"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Specialized",
+    "shortDescription": "Science, health, legal, quality, and other domain-specific skills",
+    "developerName": "ErrorProofDev",
+    "category": "Coding"
+  }
+}

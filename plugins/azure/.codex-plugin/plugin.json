@@ -1,0 +1,15 @@
+{
+  "name": "azure",
+  "version": "1.0.0",
+  "description": "Azure SDK skills for Python, TypeScript, Java, .NET, and Rust",
+  "author": {
+    "name": "ErrorProofDev"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Azure",
+    "shortDescription": "Azure SDK skills for Python, TypeScript, Java, .NET, and Rust",
+    "developerName": "ErrorProofDev",
+    "category": "Coding"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "name": "essential",
-  "version": "1.0.0",
-  "description": "Core engineering discipline: debugging, TDD, verification, simplification, and skill authoring",
+  "version": "1.1.0",
+  "description": "Core engineering discipline: debugging, TDD, testing, verification, simplification, shell, and skill authoring",
   "author": {
     "name": "ErrorProofDev"
   }

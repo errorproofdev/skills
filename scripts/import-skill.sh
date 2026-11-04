@@ -5,7 +5,8 @@
 #   e.g. scripts/import-skill.sh ~/.claude/skills my-skill workflow
 #
 # Copies <source-dir>/<skill> to plugins/<category>/skills/<skill>, dereferencing
-# symlinks and skipping .DS_Store. Run scripts/link-skills.sh afterwards to
+# symlinks and skipping .DS_Store and build artifacts (.venv, node_modules,
+# __pycache__); recreate those inside the repo copy. Run scripts/link-skills.sh afterwards to
 # replace the local copy with a symlink to the repo.
 set -euo pipefail
 
@@ -28,5 +29,5 @@ name="$(sed -n '2,/^---/s/^name:[[:space:]]*//p' "$src/SKILL.md" | tr -d "\"'" |
 [ "$name" = "$skill" ] || { echo "error: SKILL.md name '$name' does not match directory '$skill'" >&2; exit 1; }
 
 mkdir -p "$dest"
-rsync -aL --exclude .DS_Store "$src/" "$dest/"
+rsync -aL --exclude .DS_Store --exclude .venv --exclude node_modules --exclude __pycache__ "$src/" "$dest/"
 echo "imported=$skill category=$category dest=$dest"

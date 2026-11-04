@@ -1,6 +1,6 @@
 {
   "name": "workflow",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Planning, execution, git, pull request, code review, and agent orchestration skills",
   "author": {
     "name": "ErrorProofDev"

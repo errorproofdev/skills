@@ -1,14 +1,14 @@
 {
   "name": "finance",
-  "version": "1.0.0",
-  "description": "Quant analysis, market data, financial modeling, payments, and pricing skills",
+  "version": "1.1.0",
+  "description": "Quant analysis, market data, financial modeling, payments, pricing, and monetization skills",
   "author": {
     "name": "ErrorProofDev"
   },
   "skills": "./skills/",
   "interface": {
     "displayName": "Finance",
-    "shortDescription": "Quant analysis, market data, financial modeling, payments, and pricing skills",
+    "shortDescription": "Quant analysis, market data, financial modeling, payments, pricing, and monetization skills",
     "developerName": "ErrorProofDev",
     "category": "Coding"
   }
