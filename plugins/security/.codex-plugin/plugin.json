@@ -1,0 +1,15 @@
+{
+  "name": "security",
+  "version": "1.0.0",
+  "description": "Secrets, compliance, hardening, code auditing, and authorized penetration testing skills",
+  "author": {
+    "name": "ErrorProofDev"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Security",
+    "shortDescription": "Secrets, compliance, hardening, code auditing, and authorized penetration testing skills",
+    "developerName": "ErrorProofDev",
+    "category": "Coding"
+  }
+}

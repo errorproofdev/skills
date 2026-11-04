@@ -1,0 +1,51 @@
+{
+  "name": "errorproof-skills",
+  "owner": {
+    "name": "ErrorProofDev"
+  },
+  "description": "Curated Claude Code skill packages grouped by category",
+  "plugins": [
+    {
+      "name": "frontend",
+      "source": "./plugins/frontend",
+      "description": "UI design, design systems, Tailwind, Apple HIG, Three.js, TypeScript/JavaScript, and E2E testing skills",
+      "version": "1.0.0",
+      "category": "frontend"
+    },
+    {
+      "name": "data",
+      "source": "./plugins/data",
+      "description": "SQL, Postgres, migrations, DataFrames, statistics, ML, and analytics dashboard skills",
+      "version": "1.0.0",
+      "category": "data"
+    },
+    {
+      "name": "security",
+      "source": "./plugins/security",
+      "description": "Secrets, compliance, hardening, code auditing, and authorized penetration testing skills",
+      "version": "1.0.0",
+      "category": "security"
+    },
+    {
+      "name": "finance",
+      "source": "./plugins/finance",
+      "description": "Quant analysis, market data, financial modeling, payments, and pricing skills",
+      "version": "1.0.0",
+      "category": "finance"
+    },
+    {
+      "name": "workflow",
+      "source": "./plugins/workflow",
+      "description": "Planning, execution, git, pull request, code review, and agent orchestration skills",
+      "version": "1.0.0",
+      "category": "workflow"
+    },
+    {
+      "name": "essential",
+      "source": "./plugins/essential",
+      "description": "Core engineering discipline: debugging, TDD, verification, simplification, and skill authoring",
+      "version": "1.0.0",
+      "category": "essential"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "security",
+  "version": "1.0.0",
+  "description": "Secrets, compliance, hardening, code auditing, and authorized penetration testing skills",
+  "author": {
+    "name": "ErrorProofDev"
+  }
+}

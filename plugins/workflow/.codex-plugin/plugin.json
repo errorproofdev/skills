@@ -1,0 +1,15 @@
+{
+  "name": "workflow",
+  "version": "1.0.0",
+  "description": "Planning, execution, git, pull request, code review, and agent orchestration skills",
+  "author": {
+    "name": "ErrorProofDev"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Workflow",
+    "shortDescription": "Planning, execution, git, pull request, code review, and agent orchestration skills",
+    "developerName": "ErrorProofDev",
+    "category": "Coding"
+  }
+}

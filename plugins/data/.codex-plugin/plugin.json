@@ -1,0 +1,15 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "SQL, Postgres, migrations, DataFrames, statistics, ML, and analytics dashboard skills",
+  "author": {
+    "name": "ErrorProofDev"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Data",
+    "shortDescription": "SQL, Postgres, migrations, DataFrames, statistics, ML, and analytics dashboard skills",
+    "developerName": "ErrorProofDev",
+    "category": "Coding"
+  }
+}

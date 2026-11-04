@@ -1,0 +1,15 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "UI design, design systems, Tailwind, Apple HIG, Three.js, TypeScript/JavaScript, and E2E testing skills",
+  "author": {
+    "name": "ErrorProofDev"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Frontend",
+    "shortDescription": "UI design, design systems, Tailwind, Apple HIG, Three.js, TypeScript/JavaScript, and E2E testing skills",
+    "developerName": "ErrorProofDev",
+    "category": "Coding"
+  }
+}
