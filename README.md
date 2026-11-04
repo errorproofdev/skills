@@ -24,7 +24,22 @@ skills.sh (any supported agent, e.g. `-a claude-code`, `-a codex`, `-a replit`):
 npx skills add errorproofdev/skills --skill <skill> -a <agent>
 ```
 
-Replit: run the skills.sh command above with `-a replit`; skills land in the project's `.agents/skills/`.
+Replit (run in the Repl's Shell; skills land in the project's `.agents/skills/`):
+
+```
+npx skills add errorproofdev/skills --skill <skill> -a replit -y --copy
+npx skills add errorproofdev/skills --skill '*' -a replit -y --copy   # all skills
+npx skills add errorproofdev/skills --list                           # browse available skills
+```
+
+Local `~/.claude/skills` (symlinks to this clone, so `git pull` updates them):
+
+```
+scripts/link-skills.sh ~/.claude/skills                           # link every repo skill; re-run after pulls
+scripts/import-skill.sh ~/.claude/skills <skill> <category>      # copy a local skill into the repo
+```
+
+`link-skills.sh` moves anything it replaces to `~/.claude/skills.backup/<timestamp>/`, removes links to skills deleted from the repo, and leaves all other entries untouched. Run `link-skills.sh` again after an import so the local copy becomes a link. Any skills directory works as the target, e.g. `~/.agents/skills`. Use either the local links or the Claude Code plugins, not both, to avoid duplicate skills.
 
 ## Layout
 
