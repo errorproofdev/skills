@@ -1,0 +1,440 @@
+{
+  "skills": {
+    "ab-testing": {
+      "destination": "plugins/marketing/skills/ab-testing",
+      "skillPath": "skills/ab-testing/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "ad-creative": {
+      "destination": "plugins/marketing/skills/ad-creative",
+      "skillPath": "skills/ad-creative/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "ads": {
+      "destination": "plugins/marketing/skills/ads",
+      "skillPath": "skills/ads/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "ads-meta": {
+      "destination": "plugins/marketing/skills/ads-meta",
+      "skillPath": "skills/ads-meta/SKILL.md",
+      "source": "agricidaniel/claude-ads"
+    },
+    "ai-seo": {
+      "destination": "plugins/marketing/skills/ai-seo",
+      "skillPath": "skills/ai-seo/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "analytics": {
+      "destination": "plugins/marketing/skills/analytics",
+      "skillPath": "skills/analytics/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "aso": {
+      "destination": "plugins/marketing/skills/aso",
+      "skillPath": "skills/aso/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "bash-defensive-patterns": {
+      "destination": "plugins/essential/skills/bash-defensive-patterns",
+      "skillPath": "plugins/shell-scripting/skills/bash-defensive-patterns/SKILL.md",
+      "source": "wshobson/agents"
+    },
+    "bigquery-basics": {
+      "destination": "plugins/data/skills/bigquery-basics",
+      "skillPath": "skills/cloud/bigquery-basics/SKILL.md",
+      "source": "google/skills"
+    },
+    "brainstorming": {
+      "destination": "plugins/workflow/skills/brainstorming",
+      "skillPath": "skills/brainstorming/SKILL.md",
+      "source": "obra/superpowers"
+    },
+    "caveman-commit": {
+      "destination": "plugins/workflow/skills/caveman-commit",
+      "skillPath": "skills/caveman-commit/SKILL.md",
+      "source": "JuliusBrussee/caveman"
+    },
+    "caveman-help": {
+      "destination": "plugins/workflow/skills/caveman-help",
+      "skillPath": "skills/caveman-help/SKILL.md",
+      "source": "JuliusBrussee/caveman"
+    },
+    "caveman-review": {
+      "destination": "plugins/workflow/skills/caveman-review",
+      "skillPath": "skills/caveman-review/SKILL.md",
+      "source": "JuliusBrussee/caveman"
+    },
+    "churn-prevention": {
+      "destination": "plugins/marketing/skills/churn-prevention",
+      "skillPath": "skills/churn-prevention/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "claude-api": {
+      "destination": "plugins/ai/skills/claude-api",
+      "skillPath": "skills/claude-api/SKILL.md",
+      "source": "anthropics/skills"
+    },
+    "cloud-run-basics": {
+      "destination": "plugins/cloud/skills/cloud-run-basics",
+      "skillPath": "skills/cloud/cloud-run-basics/SKILL.md",
+      "source": "google/skills"
+    },
+    "cold-email": {
+      "destination": "plugins/marketing/skills/cold-email",
+      "skillPath": "skills/cold-email/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "community-marketing": {
+      "destination": "plugins/marketing/skills/community-marketing",
+      "skillPath": "skills/community-marketing/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "competitor-profiling": {
+      "destination": "plugins/marketing/skills/competitor-profiling",
+      "skillPath": "skills/competitor-profiling/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "competitors": {
+      "destination": "plugins/marketing/skills/competitors",
+      "skillPath": "skills/competitors/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "content-strategy": {
+      "destination": "plugins/marketing/skills/content-strategy",
+      "skillPath": "skills/content-strategy/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "copy-editing": {
+      "destination": "plugins/marketing/skills/copy-editing",
+      "skillPath": "skills/copy-editing/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "copywriting": {
+      "destination": "plugins/marketing/skills/copywriting",
+      "skillPath": "skills/copywriting/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "cro": {
+      "destination": "plugins/marketing/skills/cro",
+      "skillPath": "skills/cro/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "customer-research": {
+      "destination": "plugins/marketing/skills/customer-research",
+      "skillPath": "skills/customer-research/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "diagnosing-superpowers": {
+      "destination": "plugins/essential/skills/diagnosing-superpowers",
+      "skillPath": "skills/diagnosing-superpowers/SKILL.md",
+      "source": "obra/superpowers"
+    },
+    "directory-submissions": {
+      "destination": "plugins/marketing/skills/directory-submissions",
+      "skillPath": "skills/directory-submissions/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "dispatching-parallel-agents": {
+      "destination": "plugins/workflow/skills/dispatching-parallel-agents",
+      "skillPath": "skills/dispatching-parallel-agents/SKILL.md",
+      "source": "obra/superpowers"
+    },
+    "emails": {
+      "destination": "plugins/marketing/skills/emails",
+      "skillPath": "skills/emails/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "executing-plans": {
+      "destination": "plugins/workflow/skills/executing-plans",
+      "skillPath": "skills/executing-plans/SKILL.md",
+      "source": "obra/superpowers"
+    },
+    "find-skills": {
+      "destination": "plugins/essential/skills/find-skills",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "source": "vercel-labs/skills"
+    },
+    "finishing-a-development-branch": {
+      "destination": "plugins/workflow/skills/finishing-a-development-branch",
+      "skillPath": "skills/finishing-a-development-branch/SKILL.md",
+      "source": "obra/superpowers"
+    },
+    "firecrawl-agent": {
+      "destination": "plugins/research/skills/firecrawl-agent",
+      "skillPath": "skills/firecrawl-agent/SKILL.md",
+      "source": "firecrawl/cli"
+    },
+    "firecrawl-crawl": {
+      "destination": "plugins/research/skills/firecrawl-crawl",
+      "skillPath": "skills/firecrawl-crawl/SKILL.md",
+      "source": "firecrawl/cli"
+    },
+    "firecrawl-download": {
+      "destination": "plugins/research/skills/firecrawl-download",
+      "skillPath": "skills/firecrawl-download/SKILL.md",
+      "source": "firecrawl/cli"
+    },
+    "firecrawl-interact": {
+      "destination": "plugins/research/skills/firecrawl-interact",
+      "skillPath": "skills/firecrawl-interact/SKILL.md",
+      "source": "firecrawl/cli"
+    },
+    "firecrawl-map": {
+      "destination": "plugins/research/skills/firecrawl-map",
+      "skillPath": "skills/firecrawl-map/SKILL.md",
+      "source": "firecrawl/cli"
+    },
+    "firecrawl-parse": {
+      "destination": "plugins/research/skills/firecrawl-parse",
+      "skillPath": "skills/firecrawl-parse/SKILL.md",
+      "source": "firecrawl/cli"
+    },
+    "firecrawl-scrape": {
+      "destination": "plugins/research/skills/firecrawl-scrape",
+      "skillPath": "skills/firecrawl-scrape/SKILL.md",
+      "source": "firecrawl/cli"
+    },
+    "firecrawl-search": {
+      "destination": "plugins/research/skills/firecrawl-search",
+      "skillPath": "skills/firecrawl-search/SKILL.md",
+      "source": "firecrawl/cli"
+    },
+    "free-tools": {
+      "destination": "plugins/marketing/skills/free-tools",
+      "skillPath": "skills/free-tools/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "frontend-design": {
+      "destination": "plugins/frontend/skills/frontend-design",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "source": "anthropics/skills"
+    },
+    "gemini-api": {
+      "destination": "plugins/ai/skills/gemini-api",
+      "skillPath": "skills/cloud/gemini-api/SKILL.md",
+      "source": "google/skills"
+    },
+    "github": {
+      "destination": "plugins/workflow/skills/github",
+      "skillPath": "skills/github/SKILL.md",
+      "source": "odyssey4me/agent-skills"
+    },
+    "google-cloud-recipe-auth": {
+      "destination": "plugins/cloud/skills/google-cloud-recipe-auth",
+      "skillPath": "skills/cloud/google-cloud-recipe-auth/SKILL.md",
+      "source": "google/skills"
+    },
+    "google-cloud-recipe-onboarding": {
+      "destination": "plugins/cloud/skills/google-cloud-recipe-onboarding",
+      "skillPath": "skills/cloud/google-cloud-recipe-onboarding/SKILL.md",
+      "source": "google/skills"
+    },
+    "google-cloud-solution-architecture": {
+      "destination": "plugins/cloud/skills/google-cloud-solution-architecture",
+      "skillPath": "skills/cloud/google-cloud-solution-architecture/SKILL.md",
+      "source": "google/skills"
+    },
+    "google-cloud-waf-security": {
+      "destination": "plugins/security/skills/google-cloud-waf-security",
+      "skillPath": "skills/cloud/google-cloud-waf-security/SKILL.md",
+      "source": "google/skills"
+    },
+    "image": {
+      "destination": "plugins/media/skills/image",
+      "skillPath": "skills/image/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "launch": {
+      "destination": "plugins/marketing/skills/launch",
+      "skillPath": "skills/launch/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "lead-magnets": {
+      "destination": "plugins/marketing/skills/lead-magnets",
+      "skillPath": "skills/lead-magnets/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "marketing-ideas": {
+      "destination": "plugins/marketing/skills/marketing-ideas",
+      "skillPath": "skills/marketing-ideas/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "marketing-plan": {
+      "destination": "plugins/marketing/skills/marketing-plan",
+      "skillPath": "skills/marketing-plan/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "mcp-builder": {
+      "destination": "plugins/ai/skills/mcp-builder",
+      "skillPath": "skills/mcp-builder/SKILL.md",
+      "source": "anthropics/skills"
+    },
+    "onboarding": {
+      "destination": "plugins/marketing/skills/onboarding",
+      "skillPath": "skills/onboarding/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "orca-cli": {
+      "destination": "plugins/ai/skills/orca-cli",
+      "skillPath": "skills/orca-cli/SKILL.md",
+      "source": "stablyai/orca"
+    },
+    "pricing": {
+      "destination": "plugins/finance/skills/pricing",
+      "skillPath": "skills/pricing/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "product-marketing": {
+      "destination": "plugins/marketing/skills/product-marketing",
+      "skillPath": "skills/product-marketing/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "programmatic-seo": {
+      "destination": "plugins/marketing/skills/programmatic-seo",
+      "skillPath": "skills/programmatic-seo/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "prospecting": {
+      "destination": "plugins/marketing/skills/prospecting",
+      "skillPath": "skills/prospecting/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "public-relations": {
+      "destination": "plugins/marketing/skills/public-relations",
+      "skillPath": "skills/public-relations/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "receiving-code-review": {
+      "destination": "plugins/workflow/skills/receiving-code-review",
+      "skillPath": "skills/receiving-code-review/SKILL.md",
+      "source": "obra/superpowers"
+    },
+    "referrals": {
+      "destination": "plugins/marketing/skills/referrals",
+      "skillPath": "skills/referrals/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "requesting-code-review": {
+      "destination": "plugins/workflow/skills/requesting-code-review",
+      "skillPath": "skills/requesting-code-review/SKILL.md",
+      "source": "obra/superpowers"
+    },
+    "revops": {
+      "destination": "plugins/marketing/skills/revops",
+      "skillPath": "skills/revops/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "sales-enablement": {
+      "destination": "plugins/marketing/skills/sales-enablement",
+      "skillPath": "skills/sales-enablement/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "schema": {
+      "destination": "plugins/marketing/skills/schema",
+      "skillPath": "skills/schema/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "secrets-management": {
+      "destination": "plugins/security/skills/secrets-management",
+      "skillPath": "plugins/cicd-automation/skills/secrets-management/SKILL.md",
+      "source": "wshobson/agents"
+    },
+    "seo-audit": {
+      "destination": "plugins/marketing/skills/seo-audit",
+      "skillPath": "skills/seo-audit/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "signup": {
+      "destination": "plugins/marketing/skills/signup",
+      "skillPath": "skills/signup/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "site-architecture": {
+      "destination": "plugins/marketing/skills/site-architecture",
+      "skillPath": "skills/site-architecture/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "sms": {
+      "destination": "plugins/marketing/skills/sms",
+      "skillPath": "skills/sms/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "social": {
+      "destination": "plugins/marketing/skills/social",
+      "skillPath": "skills/social/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "ssh-hardening": {
+      "destination": "plugins/security/skills/ssh-hardening",
+      "skillPath": "secure-server-setup/ssh-hardening/SKILL.md",
+      "source": "mikr13/secure-server-setup-skills"
+    },
+    "subagent-driven-development": {
+      "destination": "plugins/workflow/skills/subagent-driven-development",
+      "skillPath": "skills/subagent-driven-development/SKILL.md",
+      "source": "obra/superpowers"
+    },
+    "systematic-debugging": {
+      "destination": "plugins/essential/skills/systematic-debugging",
+      "skillPath": "skills/systematic-debugging/SKILL.md",
+      "source": "obra/superpowers"
+    },
+    "test-driven-development": {
+      "destination": "plugins/essential/skills/test-driven-development",
+      "skillPath": "skills/test-driven-development/SKILL.md",
+      "source": "obra/superpowers"
+    },
+    "tmux": {
+      "destination": "plugins/workflow/skills/tmux",
+      "skillPath": "skills/tmux/SKILL.md",
+      "source": "sickn33/agentic-awesome-skills"
+    },
+    "typescript-pro": {
+      "destination": "plugins/frontend/skills/typescript-pro",
+      "skillPath": "cli-tool/components/skills/development/typescript-pro/SKILL.md",
+      "source": "davila7/claude-code-templates"
+    },
+    "ui-ux-pro-max": {
+      "destination": "plugins/frontend/skills/ui-ux-pro-max",
+      "skillPath": ".claude/skills/ui-ux-pro-max/SKILL.md",
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill"
+    },
+    "using-git-worktrees": {
+      "destination": "plugins/workflow/skills/using-git-worktrees",
+      "skillPath": "skills/using-git-worktrees/SKILL.md",
+      "source": "obra/superpowers"
+    },
+    "using-superpowers": {
+      "destination": "plugins/essential/skills/using-superpowers",
+      "skillPath": "skills/using-superpowers/SKILL.md",
+      "source": "obra/superpowers"
+    },
+    "verification-before-completion": {
+      "destination": "plugins/essential/skills/verification-before-completion",
+      "skillPath": "skills/verification-before-completion/SKILL.md",
+      "source": "obra/superpowers"
+    },
+    "video": {
+      "destination": "plugins/media/skills/video",
+      "skillPath": "skills/video/SKILL.md",
+      "source": "coreyhaines31/marketingskills"
+    },
+    "video-editing": {
+      "destination": "plugins/media/skills/video-editing",
+      "skillPath": "skills/video-editing/SKILL.md",
+      "source": "affaan-m/everything-claude-code"
+    },
+    "writing-plans": {
+      "destination": "plugins/workflow/skills/writing-plans",
+      "skillPath": "skills/writing-plans/SKILL.md",
+      "source": "obra/superpowers"
+    },
+    "writing-skills": {
+      "destination": "plugins/essential/skills/writing-skills",
+      "skillPath": "skills/writing-skills/SKILL.md",
+      "source": "obra/superpowers"
+    }
+  },
+  "version": 1
+}

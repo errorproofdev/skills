@@ -1,0 +1,795 @@
+{
+  "ab-testing": {
+    "SKILL.md": "c5c547f2ccee5034bf24b1afa5e7c1ae2913f2618bc65f3e0788a1c55f7759b9",
+    "evals/evals.json": "fb32e1f75fc70e339e71f88b1cf10bd9f3d1835178a62d1156ed7dddc278f061",
+    "references/sample-size-guide.md": "53525ddf0e904477262dc3dbc89d4bd4205f2e07d655616de91e22a310f768c4",
+    "references/test-templates.md": "761a40b9de8d16f18fa7f60b59e77aa749607ac8014af43e0b022f47fa87c812"
+  },
+  "ad-creative": {
+    "SKILL.md": "7af23285e4ac6df65f2f23e940279cdc9a70280a908a34214e86954ab7b0b000",
+    "assets/creative-review-template.html": "0ca7cce4fa809235aee776606205925d8dc01bde8a8325e2af7197d86394d3b7",
+    "evals/evals.json": "a688328a32f7ff3ffd975a2e4a31b5bc2a2c5dae86af0656f8b0ec61e9f8c916",
+    "references/awareness-headlines.md": "0f9b2408e402ad03956ff84bf31e5c594371dd3e2974c5390c42af4e3c60ed4d",
+    "references/creative-review-page.md": "03518911b1648bce12a3d579c5979b97442af50de24ff74809a43ba3395dcb3a",
+    "references/creative-roadmap.md": "a0be737841d8a73f0cf02094c9ed1e3f7c050e1c6f867794b1fa8b64dbf3b50e",
+    "references/generative-tools.md": "9c977cb5a0e5c841ebf98bc1fd531aa0fb1b949aef14093d4a0146f19606f7a5",
+    "references/hook-system.md": "2967ecbf32423bbb70ca9587b0af8d257466c852106fe909f6447bbab9a18002",
+    "references/imessage-video-ads.md": "99627f4a43f9ee8394be49c95bb865496037cf9901dfcdc1d1b0af9d86396aec",
+    "references/meta-creative-formats.md": "09720c4550761365a8c93c8587fe629c87718dbb331677312d93e5b2faa9761f",
+    "references/motion-video-ads.md": "c64e83199f0316e12e7811667f09a6475a34044c8eec2e3ba549faf9c33fc28c",
+    "references/platform-specs.md": "de69753161071a8d3e4d244280562810a6c4d6ae2696c5a21940f983abd0aa8e",
+    "references/short-form-video-specs.md": "1aa1cc498e350ed00ec4783b60d2eddee5bc98f25750761f6086742d0758f953",
+    "references/static-ad-templates.md": "fc93d3f5fa6b3442cc1c6785eda05979da0d299c640d5f0a277033209d68e651"
+  },
+  "ads": {
+    "SKILL.md": "520e05602d6f58a8e92994360b35550d46aea9560c6648fb96c4c0c4a9c5f07a",
+    "evals/evals.json": "bc20cdba9b09d532b8c5ccdcad4f5b97cfea3fa2021aa07bbc873ebfd7c586d2",
+    "references/abm-playbook.md": "acb5c89ced4497674d012d015504a5c8e17c619bd2fc1f0191d833a9957eb44a",
+    "references/ad-copy-templates.md": "853ab37e23b75aa3355bdbed9a1357948e635dbdf737be5a1a7aa0126d701206",
+    "references/audience-targeting.md": "21ed7c99fb1124ca38635d6f313cc2f3ca49a192f390cd55293b7bd5a028e1b1",
+    "references/audit-guardrails.md": "ffcbbda4cabd919bce93c11699fac49059dde7d96c64dbf34f77c482420e6667",
+    "references/b2b-paid-playbook.md": "21dc1125905f8d985763996afb24a2bf54539330535b7b2b45c052901c5b2006",
+    "references/creative-research-automation.md": "1dd23921401b5efe2c844e17dee30d6e460da37ef0e42870f9438227d3858a19",
+    "references/google-ads-audit-checklist.md": "4c21526a52869f8045cc2f1c599dfbef487f6390c94cb9b38e8a7e830b1c0279",
+    "references/google-search-playbook.md": "8055f63b09e4869f3a936debd403ebae6459d8089c9a48a6380a6f750900f07e",
+    "references/linkedin-b2b-playbook.md": "8f38aadbf24c1a554fbaa47bf2f24bac0c4773fa16f65d34c1c600e5e3d8a6ee",
+    "references/meta-andromeda-playbook.md": "803653f4096a3ff0b28b40d776bed777036f2cb7126575233b7574f9d3c35717",
+    "references/meta-decision-system.md": "861709bcc4e7467eac7d4de63f0bdd6709eb3c12a1d72b3855dce313ca15407f",
+    "references/operating-check.md": "0039550a0867dc5f80595b824f8d6a6a298c5777ef2d0e54d225c1405f900de3",
+    "references/payback-period.md": "77b0f35b65b35cdee53881105a16498e3e4538b657923a176b99a19b807daba1",
+    "references/platform-setup-checklists.md": "b86e206f8c7233c235d7d385a69e17fac16ac001ab130242b7700fe650752f69",
+    "references/reading-google-ads-data.md": "e5bb10f5bd81eabaae63c005a9be8c3f70d63df60e192dcd37faf3718ff0fd09",
+    "references/rsa-output-spec.md": "285fec5c1671c9cc1a4cdfbcf06d8a54a022cbad52693941457d90e1f2c5f503"
+  },
+  "ads-meta": {
+    "SKILL.md": "1e06b50f7d0a16cfd76371b752d9ad0ede7c6b59a0da7da66f8b48425c015ecf"
+  },
+  "ai-seo": {
+    "SKILL.md": "8e5532f13d069dc113316d3b18e26d98adc7e20a69b57b94d20d7e2a2f90c220",
+    "evals/evals.json": "3824a16a8a8179ac69d40df5148560ad57421b05433b2c78fd191c7ea0a013b6",
+    "references/agent-defaults.md": "4f009f323b381553961914bf7d67755ee3c178dd10f1570f61fe306cd0054b21",
+    "references/agent-readiness.md": "b9021a2a6b92757a30bc8d8a850c96358dd3010b763e3c3598f1f4757c7eab29",
+    "references/ai-attribution.md": "accaf004e50fd92d16e5e1b57ce0aa5f5c0f88d1ba7bb2ce6939de29fe3e1728",
+    "references/answer-accuracy.md": "9c9115a720c6891fc7e0122d465ed38643170b026fa461de5971feb642f0da57",
+    "references/citations-vs-recommendations.md": "90adc950592b24d8ebd46460ef7ada6a2c4df0f4e4752903c93341cbe182b919",
+    "references/content-patterns.md": "2aa584f93587c322f08697f2eedcb6b48fd79bccb75d1f0ae2072dfcc8c7c684",
+    "references/content-types.md": "2323104990cb3057f3ce135c2b7bac71e5369992d5aeb24cec009c8f6d841d0b",
+    "references/format-volatility.md": "235858ee4d820dd0b89d3c7ffc65f4f59c7904f63feef7d2fff78cc6818caddf",
+    "references/linkedin-ai-citations.md": "2bd191703b543fc5f3ae36f5e367ed6d5504ad38e7446797cd3c5fe23ababd4b",
+    "references/multilingual-and-commerce.md": "5d65db4b85c9c257f4d052a9b3b65bb2f72af140076e2b2dc4cf7dd34d111057",
+    "references/okf.md": "4abcab5b8ee90b63c5d09c98387a8ec3cdb8f5df33e75d3b4b91eb817283bfd8",
+    "references/platform-ranking-factors.md": "a289cacc5fe20698a3d4ad52a69e90a8bd2d67e711e1061ed342e9576a5c8ce6",
+    "references/positioning-and-consensus.md": "b7618247e57a4560c3785155c34de77adc232784b7dd91b2c44a77a73617b9b4",
+    "references/prompt-portfolio.md": "8891f4e747d4eb17a4a2f1d075a081d4261a6084eaa1e9fdb862ed09ebb505c0",
+    "references/youtube-ai-citations.md": "eee24cd9f377db5f59933c775a740f5ff7ece9f238b051157ba72531d9507a99"
+  },
+  "analytics": {
+    "SKILL.md": "c8cb2cbeb318393d3a014ebed366ae13e6cd84d205cb6a2ac03890698639a146",
+    "evals/evals.json": "526f4bf20cedca26906dd0c3dfb6ae67de3f5b17977eb426820ca406c5ce0e59",
+    "references/event-library.md": "c60e3e145e6b06258570350b614913ed9150143b4494a71396abaef479502b05",
+    "references/ga4-implementation.md": "a5715de092984fc148b1825f1edc7730813452876f991819c219b477ef03ed6d",
+    "references/gtm-implementation.md": "0b161102de710c978cc2ac52c78c79f32e184bc028aa946eba18e777d7a60d64"
+  },
+  "aso": {
+    "SKILL.md": "666d6096ffb3c5d9ebe646d1912da98e64d76e756da9d5ea7debc55d02ad5c08",
+    "evals/evals.json": "9b665d9e1eea16e46591ee42790642c396a4e20fd61306ec3171f9083a87b4d0",
+    "references/apple-specs.md": "f7186eeff06b4ae0b24bc4360b3061b0fe98b1c20b7f6a95c6492437b827bfe9",
+    "references/benchmarks.md": "64b33412338388f8d6b4cafc12a8547afff9d64ca37646a996cf1baecf54043c",
+    "references/google-play-specs.md": "8a47707817aa40684f51ccc16e8b718ca6acaa27e3b1a00d2fdc21dd63b6ad9e",
+    "references/report-template.md": "f67c8827c4600cb1e392c8cad05ed5740f9cd01321fd715a9e851e37ec0047b2",
+    "references/scoring-criteria.md": "9792e3c9a93dc6e2dffda0a87e0ed6e592dd778c29f614d52b883df7f9956340"
+  },
+  "bash-defensive-patterns": {
+    "SKILL.md": "741b42d1fa3167f2131a17f3e0fe891e93be4fc87aa3c19e1de5fd26d763f711",
+    "references/details.md": "79483306c2f5297c3fa1c5e6d05ff2e98a1ea73ea760b6a62230b0822236f981"
+  },
+  "bigquery-basics": {
+    "SKILL.md": "56a16fab677f74728cc7f46aa8db5d2179be8cf6ad04b1582107dc3983d13db3",
+    "references/attribution.md": "407c27816073df66f74d72d52dbb25cc33e8cd2980134b1d1724f153c8e27814",
+    "references/change-history.md": "6d21ec622c6efa8edd8377a9a963ac13de6d4dd2b53d4fe40c90cfb769e88088",
+    "references/cli-usage.md": "b8ec6d981390d543a6af0ac3072813c6f7df641547dc17ecfaa2d43e766612db",
+    "references/client-library-usage.md": "4b091ffcd5f657e1c96dc60e2ad913266850a380c39190a26bbd90e229eb6b5a",
+    "references/continuous-queries.md": "01d77462193dc2343256ef2f69bdaa2c32cfc9af00e78a0e4ae010c2f1b589cc",
+    "references/core-concepts.md": "0911ac060c9b0e9423ef9676bc98983b687c68696f178f01edc3d2b9715c4ab1",
+    "references/iac-usage.md": "4cc7cba990280a5f2438bb965fb4bd575ca5967289f72bfd19b7830eb44b0208",
+    "references/iam-security.md": "384c8d4b1eb64f9567cbc6f167cd38802a0b4b836b0616305d947fe4f46cca04",
+    "references/mcp-usage.md": "f4cf2ef39e89ae3fc8e3a0bc19100e3382dc1eeec920d4cd8c5801dc51a62df7"
+  },
+  "brainstorming": {
+    "SKILL.md": "2c9ca71f94886f9ca9f4aef055f7cafb3e1a9bdf3aeebf8f4cb547c69405d207",
+    "builder-check-prompt.md": "36d51a4723d6f0a3ce5811a0ea3b3a8424f07533947e1355f5d8cb8cce40c55e",
+    "scripts/frame-template.html": "6a8a4e58bd6a44b904e2e3c57de774481d909204597e1498de53f1b2fecc4c4e",
+    "scripts/helper.js": "43c6d69954a46ec34a2a262bcc62a9a7e83e839c739f199cb72646d397c686e3",
+    "scripts/server.cjs": "763abf96510e0b892a1141397b31aa82ef900cf87ed34dde94bc8782baf4a7ca",
+    "scripts/start-server.sh": "314dd68dc00e8dd94c7491aca8a5f004c7fddffc161e2b07482f29f48d13659a",
+    "scripts/stop-server.sh": "0b5ccbbd57f62d3ed88993f7940b5ee0e5c0fc9b21c550c623da4f6292e47daf",
+    "visual-companion.md": "6ffcb038b53254bd31debaa15e12dcd4ff24bd63d690e0b644ac6396701cf2e2"
+  },
+  "caveman-commit": {
+    "README.md": "a2e82924b487fc1845114c247b47c2d3c2d1bd60f90bbfa60e9831319eb964fa",
+    "SKILL.md": "c788a282fc75b981b421dfdad5d84ea7f83f946c126daa39cfc7d3f97845e193"
+  },
+  "caveman-help": {
+    "README.md": "b88d5e36dfab3a681f52d6b4bfcdbe188aebd2ef9decf7f58b025a75867810e3",
+    "SKILL.md": "0bf9ee3fc8a9258b2d5f6b8bf24ac21f0bf2e4b9b4641dbc426b74f18186f81d"
+  },
+  "caveman-review": {
+    "README.md": "a06403b2722a069a9a2b0011772ae73296e68b4e46ace2f4b42b4ea546052b64",
+    "SKILL.md": "599330563f19b5c59c3efddffcd7e8d9098b74c29817ab422ccd3253b103fcb8"
+  },
+  "churn-prevention": {
+    "SKILL.md": "425497b9c3415fa91a5cc4a7140a1bee727d3b6398beed1bb4fa4880503c0355",
+    "evals/evals.json": "ee85b927a1bea665b0c080034c76dcc1a81c57be1f4e974a664c7f62c4329dfd",
+    "references/cancel-flow-patterns.md": "d64b9282b956da6831ec97a1fffda5841c5c43a71721b512b66b04bde104c139",
+    "references/dunning-playbook.md": "24b96a01cfba174c9f3adde66d417e7282c0cf31789c2719e6bd37b8ad2ecf8c"
+  },
+  "claude-api": {
+    "LICENSE.txt": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+    "SKILL.md": "40537cca17c4aa86e4ce83ced39efcbfb1204905e3cf4c4ff98f2eab011e4b7f",
+    "csharp/claude-api/README.md": "87a2cc5c6e670e0bf34120f9a592d321567eea57c716c06791f6d2dcaba08b00",
+    "csharp/claude-api/batches.md": "ec276fccf21757ed00803dfa4bc35f14f334138629fa53c77a025d718eda96a1",
+    "csharp/claude-api/files-api.md": "766ccf5dca9ef3caba8cefeddde10f6d171a7bd2ff4c97689462fad2d0d18e4b",
+    "csharp/claude-api/streaming.md": "bc0100e50b3495e869901bcfb231870cb3483b936534af5fd3dddb5d07e4531e",
+    "csharp/claude-api/tool-use.md": "18aa857c41e39eedb35815bfd8d50868a1bbc1f1a657f5e7233a3879baebc764",
+    "curl/examples.md": "4520e447d37924e62fe982923f3eceea5338dbf3b3a0d25d0f914272c16b90a0",
+    "curl/managed-agents.md": "faa7dd3d83cfd32d1faabb13fee5902e041285579b00256f17fd21681ed3ff2a",
+    "go/claude-api/README.md": "c73ac644d8efe65a8d149e800267f98b0aa9d1e716ca38a22fd8803d5c35bfae",
+    "go/claude-api/files-api.md": "7bf67ece5e4d18b1fb07085a55b680420cc7bd4de94a1fb2bb73cb23f39c20f0",
+    "go/claude-api/streaming.md": "a523e992e438309ca1bbc075ded2b652eb257242fd0ce521afd3b8ea024ed94d",
+    "go/claude-api/tool-use.md": "18c6dc0cec151293b44697c340e0e0759f6081ad711ca34b06570c2450f243e9",
+    "go/managed-agents/README.md": "0343be8d49f94687fe5e068ad69d9e05253b408e7bcd0e230b39924f6404facc",
+    "java/claude-api/README.md": "cb6d395dc1d930371f828290132681541eff7f1a7e2739bb4c6655ebbb3b8c7f",
+    "java/claude-api/files-api.md": "1c792f3421de32f42a56235327f87807a5579340726bba677ec13e05f9b493c7",
+    "java/claude-api/streaming.md": "de13bc9573b37edb5af69606853c4fde3d494ee10ff47d1a030ecef9cc17463b",
+    "java/claude-api/tool-use.md": "1916b8d4e49b5d319a2d0c7e21b5a3d7a0f225e4a94d82139e769f66eb66f6d1",
+    "java/managed-agents/README.md": "ba2a845898b302dc78b5354aa8f34ae4fc2c2ea41d12aa7d0440db59ee004e0c",
+    "php/claude-api/README.md": "00e2e88f3ea9a6cce812d3e6ae9e035bc36f88828a09e518bb73af91097a9d66",
+    "php/claude-api/batches.md": "6f82a29f718ff6e6b02aaaee3cfd6cda2feb82aca57d945f11a2c021214a699d",
+    "php/claude-api/files-api.md": "0715a0d4cce88fd885f57bd33b4654071a9068d5f8a892143b062c78fe51afc9",
+    "php/claude-api/streaming.md": "3b8ac667b21f17750eb3c1fc7dc166fd7b1f57a1d8b11e74489de4432e21d31d",
+    "php/claude-api/tool-use.md": "1d79c316ef608d8327da1ae7495ecc4a0c517bdd761037c886d8fc61a0eca7d0",
+    "php/managed-agents/README.md": "2f9ada8a85098a7a4a7265c29fadb74d695a33bf19bc6d5df3a2c275b4a535b2",
+    "python/claude-api/README.md": "284fbc6408809afd27288da95c5fb32daa48bd77518cd5fd4e973cc05363eaa8",
+    "python/claude-api/batches.md": "7e4d07173845836617be3db70482c182311ad2d6d5ddf786482ca57c7c45776c",
+    "python/claude-api/files-api.md": "2aa142978660d9ae3200d21a4d333531ca101898706f620834304e8a7d534580",
+    "python/claude-api/sdk-upgrade.md": "f7c5651b21dd6fd5651935415d907fa0a369736f3055d50edb3d236ea016527c",
+    "python/claude-api/streaming.md": "8f73a54dbbb5e82c2c7690d7d866f17ad8c72f662a2be6dd788b5c0956714026",
+    "python/claude-api/tool-use.md": "548dcc4bd2a36e8b90cec446f9b0b7917d2d75a085c7c2603b28c840bd621621",
+    "python/managed-agents/README.md": "82b6e5847027b0ffe5976116e5c249a58e9e2781eb09e914a81ee2f9eb970245",
+    "ruby/claude-api/README.md": "c7de89d236f22bc0b44a091a45ee186ec057caa021a71acd4d3849599cbf3b36",
+    "ruby/claude-api/streaming.md": "09b784f2ab0a5fd17e0589225408c618d26c6dd3cd601364ff92f409d5b104a0",
+    "ruby/claude-api/tool-use.md": "80cbb7c7fd4a01b816524eb54e0f8f4e5b4cc7643d393dfce6b9682e0f4d61b6",
+    "ruby/managed-agents/README.md": "729ba22b8711a09192006d169098f16b933dd124ff36421772e4334d862306ab",
+    "shared/admin-api.md": "a69c53817391fca50c0a1848f46de9debf71fa3681298fccb0a6435b760bac2d",
+    "shared/agent-design.md": "9960728faf6976a2ddfceed02ed72af122d3b2558af573a9a0ea207b3adec2bc",
+    "shared/anthropic-cli.md": "2baa725ea0248ab7d98dcb218f09e5eb22f768006ad28f4d5011b4975b4d500e",
+    "shared/claude-platform-on-aws.md": "dec03193c61909167846c0526a4feacf011578b5e7ee29f76378141315cf97f5",
+    "shared/cost-optimization.md": "d0107a954e9059f43c0aaac07ac1f8a9f5aa0a898834d3d983d623e5976e051b",
+    "shared/error-codes.md": "1abf8dcc262732f7ee5e4c58d1909fbb0722ac12e1b957bffdf64f28fde9e4d2",
+    "shared/evals/build-eval.md": "c8f6ae960867f6b3b35557aec75361553888ae7168f268365444bf6a4e09a5d7",
+    "shared/evals/cost-hillclimb.md": "dd46a354fed24d96c7f9acf42f9da64f5cceaa797949662d82374fd2cf7a3515",
+    "shared/evals/eval-audit.md": "a013f8eb0452c51c5a31860df0fb47219dcdb4da507092fc98867225095026ba",
+    "shared/evals/eval-hillclimb.md": "315ae8540ebaeb9f1d7de5efa49625e6137ead255dc3a545b63393df89375588",
+    "shared/evals/report/SCHEMA.md": "9a83404a9b3c413113df39d9bdf08e003ff4d6a75386f4010887da3298766687",
+    "shared/evals/report/build-report-lite.mjs": "af79ca5fa5f06747dbcaa1d40017c8c8e81e0aa11cb8e32b848043893cdb03c7",
+    "shared/evals/report/runner-scaffold.mjs": "c3a87ba4b94b3018b83c075d5148ba7760580aa447699d513d45ab55b82a531a",
+    "shared/live-sources.md": "cc82c88587c861919557598df0421ea7e8cec683f63adead997a0170dc78732b",
+    "shared/managed-agents-api-reference.md": "efd84dc8a17a2842965c775a905b17fa94cf762cc544df81e708f3aa7a89ae7b",
+    "shared/managed-agents-client-patterns.md": "e9cf54ca98a9cdd7dba0f51acfedfc1b0f160bad243e39f338ff39d4bf5bf823",
+    "shared/managed-agents-core.md": "b1e7f90f644ef3333bc2c8407ba17410cf672314868474c73242ac969e22007f",
+    "shared/managed-agents-environments.md": "227e52e6a3d1c967c68912738ff184a97d1f4cd019c6a7bc7cd90c9b9857e5a5",
+    "shared/managed-agents-events.md": "3c5edc1428bc4b9cff1ebf01cecffaff3ef1650c19afa48c616fcd05b9586e03",
+    "shared/managed-agents-memory.md": "0dec5641630f97629ea75bbbe5c2bced861f9c16b0572a68c901849ea4d00bcb",
+    "shared/managed-agents-multiagent.md": "f3d03cc910064cf419c80ce79c5fe62abde127467deea55491b447a07953a06b",
+    "shared/managed-agents-onboarding-from-quickstart.md": "e37628c5639786a7868acfed4be0e25678b69b7d13a9aced03d74deebe042342",
+    "shared/managed-agents-onboarding-from-url.md": "b6c49289186d7cc521c995ba88fa916b65433101b2b3e9bf3c9add94ad87fa34",
+    "shared/managed-agents-onboarding.md": "025683a9ee3db081d8a6978980349ce68d1df316d0c5aea31ae12438907208c9",
+    "shared/managed-agents-outcomes.md": "a516c6bf6a6a76f7f5ef83ec80895efd5de718e8f9418b57c705ce151afc5afe",
+    "shared/managed-agents-overview.md": "abcbdc29435c07be4749e21f005ed51f45942af03fa0bdcdeb18ebfa38c6a6f8",
+    "shared/managed-agents-quickstarts/bug-hunter.md": "9afd40ef3e1bca9e1cc4c6655d314127cec0b4dcff0e12f6016508c134954248",
+    "shared/managed-agents-quickstarts/contract-tracker.md": "312ee5f886de59b6db4603d2df9766d66285db36973656c5b9ff0bcc1ed02279",
+    "shared/managed-agents-quickstarts/data-analyst.md": "c2116bac43972f2b40311104bd7cd4e084cca806dd40a1ddf8462845d785bd57",
+    "shared/managed-agents-quickstarts/deep-researcher.md": "a680856d874dff23cd3f016e36d0a58bc4db36c56d790d216743f236ee37a48c",
+    "shared/managed-agents-quickstarts/explainer-video-maker.md": "c2570c5e14d51c5caa77646ac417d18619d34a27cc94dc72cf020c698f2803f3",
+    "shared/managed-agents-quickstarts/field-monitor.md": "f17f26eee0109f4172134c5bea5761c52b8459e44ae03608c701cd3492f4a3af",
+    "shared/managed-agents-quickstarts/incident-commander.md": "badd3622ffab0798ab44a55189f47e95c107107ce57eda9fa5357b1aded8fb2a",
+    "shared/managed-agents-quickstarts/performance-tuner.md": "922396e14b569bc98a7bdde34d10890cc81c5184e81971e6c9be108d191dd639",
+    "shared/managed-agents-quickstarts/sprint-retro-facilitator.md": "8b5ed9895feb1ade54578a270493c63d0f57b3bb0fbc2eafcfa2e87d3130fa75",
+    "shared/managed-agents-quickstarts/structured-extractor.md": "c278074c8c48d35fc6c68ed32eaa8704cae73a8e74035fd1d4a6abdcb9bd0fbd",
+    "shared/managed-agents-quickstarts/support-agent.md": "da75c50edf207f5ef468fbbbfc2e77d56e7d906a6c2cda28756f896195e171c5",
+    "shared/managed-agents-quickstarts/support-to-eng-escalator.md": "46720e5341808a9938825be44f936c91f83739ebdef9e1d17d9f0ec22738346b",
+    "shared/managed-agents-quickstarts/watchlist-scanner.md": "e67861c63b9d46b01c8d2784998b7f0de9a87aa6012b77127def1253c5ac13db",
+    "shared/managed-agents-scheduled-deployments.md": "3fdf7bd691b4f798149d7ebdb933dcee7d14d5d47dd6bf8196c41b819223175e",
+    "shared/managed-agents-self-hosted-sandboxes.md": "a0c0d98ee1921ee5856a9fd1c02931d724c7b7ffffe17f72c85bc90190399085",
+    "shared/managed-agents-tools.md": "9a9fd54ebb5e81eb0c6b7505f1cadc420fed5696cdab3e0080dd00ccf2e37b6f",
+    "shared/managed-agents-webhooks.md": "38746f77a3ee971f9b1f7d47cec9e753131bf271fd795aed5c3da1764c9a6ac1",
+    "shared/model-migration.md": "b4fe96362b865a28726ab877c966624d5bfc2f86ff9b34940a34e3f8b6fc034e",
+    "shared/models.md": "c1af1f093d46fd58e50ef3e8e28d339650f333059bfc49a63d01d0175675161b",
+    "shared/platform-availability.md": "607997bc16de403970cb32c1dc1fa63e68f7f02328728be59397e7cefb2efed4",
+    "shared/preserved-thinking-migration.md": "29921d69fa8dc7e450e7bb793c9f59ae755262ccc933a52eb7116c207defb34c",
+    "shared/preserved-thinking-migration/causes.md": "c2dbadb0439806863723e5ef7279d626d731d8179fd39293ff26d226b94d3694",
+    "shared/preserved-thinking-migration/drop_block_probe.py": "f23abb75bc079d835f57da7598ac5a1bee4318214ab803185feb94d8db8c4b88",
+    "shared/preserved-thinking-migration/prefix_diff.py": "734934b81b5f26e9ed2f8f51f44fed6554233de4f37b22a8845ae4ffcb622ac0",
+    "shared/prompt-audit.md": "1a50ec950f9c11bb4ad1a5032a26bb20cd52c9d358adf6add2cb1ceb1aaf6cc9",
+    "shared/prompt-caching.md": "5800f883ff1babe24105e7e0e3fc7e9b03dfcce25bb2ccded4bb40d8c81d8464",
+    "shared/token-counting.md": "8674e246c165decdc13106a4861a254ededb0421caf7fa4015ed0fb36e6c60dc",
+    "shared/tool-use-concepts.md": "62293e7bb7763f7ae487d3b98ead6b733689b2fd7089784ad5859dd869a153f5",
+    "typescript/claude-api/README.md": "b2a01ccbaa0d4406e400bcd8efc033759af5d646a97aab744aee55bf07d6ab16",
+    "typescript/claude-api/batches.md": "acc33bb981acd48b6ee9a6b2c2afeef9487c42ef2b117225da3949dc61efb464",
+    "typescript/claude-api/files-api.md": "df8e4e433a4ded6d4c3eb40de9bc0782cf77aaa8e3e331a539aec1cff55d1316",
+    "typescript/claude-api/streaming.md": "09db982effb0b7d14e29eddd5425b00040debfedccf3dd0db9af73f7d2da3e79",
+    "typescript/claude-api/tool-use.md": "d0c3e5da146c6da8a85ced14f964dc33de4c0153aa2748dee35c319752e8b725",
+    "typescript/managed-agents/README.md": "5daf6b0c6a443e1ae720b0a7343e061ebdbaeb751dd674f37f9abf9d12efc66f"
+  },
+  "cloud-run-basics": {
+    "SKILL.md": "8bf95426fb0c74b7f4e1a66d906791f59c143959e8bc7205c9249ada00e24903",
+    "references/attribution.md": "98430e3a22ad85719cd51d6eae0ea04c9ecfd1cd424431e4a5c562ebbd803d70",
+    "references/cli-usage.md": "87a58f1c49b848f66fa6bf1e30882fe247232aa1bf76e90987abf5e8b031580e",
+    "references/client-library-usage.md": "2f2c95b3fe6b8c36cfea903644279abe129816a84785739d4ba49e6bb571e772",
+    "references/core-concepts.md": "459830cc25d643dfd255b127df4df01bf9987b9eafd5c8aa8baca054517ccffe",
+    "references/iac-usage.md": "429c3a3edba4bd108c5faea064fdd17f13fddc3fd2238a245de0c700d29d940c",
+    "references/iam-security.md": "9430085095a0d16243ef7b8eb5a875690df633f8626078d3b004387bae2a7721",
+    "references/mcp-usage.md": "ad9aecf215e01dc4384918b39457a118d15d16f3f6c7e10aa80a50a686eca780",
+    "references/networking.md": "8a62caf6ae07721c77d384ec30991df7349ebc674fb8152d58dcad216527866c"
+  },
+  "cold-email": {
+    "SKILL.md": "6cf61f55b8ee530d78d4af6cc2a42006f7d84374ed55b967d196ae9a354bbf9b",
+    "evals/evals.json": "f6c28969b333377b2ee24aa122ed91455d52df893ee17e0f203fd0cb72b165d0",
+    "references/benchmarks.md": "f69fd26e8c9a4e61d3d74368e3e8dae5e737f5a05ffb49f6b13f724a2aef49e5",
+    "references/deliverability.md": "dccb53b0ea4462139b642f44a748ea74ab6f034801fd8b4de599dc2f10287021",
+    "references/follow-up-sequences.md": "a72408232976f7af74a3ea4bc03f93bf34e7dc44fb7dabd2f1f56a24b8a3f664",
+    "references/frameworks.md": "067c1f5ef701932193f1421b903c5d285ffe9845d2488f9cb4691ca36e513d3b",
+    "references/linkedin-outreach.md": "c95ba4c785bafccfffd98c6d850c20ea674cac1b18fa817d3f4dce23ed159ba5",
+    "references/multichannel-cadence.md": "3189071b3afb7dfbd480d2e5c9835867e757fa1cad783b2e7c3f63da3ffe1e76",
+    "references/outbound-plays.md": "d48f43c90b811b1124f2cd23447854a62196c9fce45248662eaede722542f44f",
+    "references/personalization.md": "9d5368645025aa632316b3c7de999762e2f8743fb54aae0b59adfa011b212c5a",
+    "references/reply-handling.md": "fa2a5e020a0206ffba29093b54bd7977ebe6d3e34a6ae323b34ce86ce1604da4",
+    "references/subject-lines.md": "f71f31b1151d972bb19ff03791ffb9d24941a8ccea8b913e5a5c7aca439b45ce"
+  },
+  "community-marketing": {
+    "SKILL.md": "93af6e03d5e67202364c8eb2316d7ed87a757c9a0aea7b59cce36683f6a387c9",
+    "evals/evals.json": "fa15fb195c71bd91099919f5a736007362a2b7c0574ffb4692eb300f213bd22f",
+    "references/community-models.md": "6da82069b761bc557803d497b091c60c0798f921fe9c81c45c45bc4d7d7240cd"
+  },
+  "competitor-profiling": {
+    "SKILL.md": "66d93cd9c8120d63d45c4154f13bf6b475db99b7628569ed4e42eb271909e254",
+    "evals/evals.json": "89e7a8dee7c688adde18f2885ee4b52011faab29255f182c401b19fe78caf264",
+    "references/templates.md": "710d78cb519012eb7e39f63643e22d7b9026c91c569262b44c45535c10717a91",
+    "references/tool-reference.md": "fda64910bc1b3a2bc7df21c15701220849b4b79a58a51f9d3ccae1b7311dbd79"
+  },
+  "competitors": {
+    "SKILL.md": "ff77b76dfe43158b2fc248bb8c41fe94745d1264abb0a0c665b2c55318287a35",
+    "evals/evals.json": "da6c92781fdd077dbac1ea9c35cd1fb4f0ec542075ee00966c058d3287a2d2e7",
+    "references/content-architecture.md": "893b0bf30a630753bff02345029a96959ac359a5221467132d553d8e09a2d433",
+    "references/templates.md": "138f4367a45fc9cc775f9fd67324f8a6f1e1f5c3c1a90bd952db4731f080844f"
+  },
+  "content-strategy": {
+    "SKILL.md": "5e74201646b8ae0b7ddfd2f4a4a14149096f490667b32bcb9e3a35e7326d88b0",
+    "evals/evals.json": "10167e7125ee77cbabe4f03953750dd99ea147f7461027fdbb0cf8e089e5506d",
+    "references/content-distribution.md": "1861a1aab0627ab29c279000879a9889242da1ba85e677acdc759c66a6241778",
+    "references/headless-cms.md": "efc796ae9596d1efcb876683db2d9b7c10c83e76e1cb69e527097907d5b4fc3f"
+  },
+  "copy-editing": {
+    "SKILL.md": "cec5a771ce37ade292f7f1f6b418e8a6ce6ec3f50163fa5e664afbcb03e085fc",
+    "evals/evals.json": "cc18c9f51094058759267d465cfcc50da65f248f66b923326781aa642d622ca7",
+    "references/checklist.md": "4cf94c922286223681fc53721fcc65ae7299f1e36e797e7397d369d674580c60",
+    "references/content-refresh.md": "ba73cdf278fe6b552eee27eb1452494f11f9d17ef67d720657e0982f76fb961b",
+    "references/plain-english-alternatives.md": "df4f820d4c63ae8a517c64a243c101658352cd07d002355bf3c97de0a00f3775"
+  },
+  "copywriting": {
+    "SKILL.md": "02f0ab1ddd41d95b3c230d4bcff3de6578c8f2e45776c8ef2e4b931636af5bee",
+    "evals/evals.json": "ccec86052a0edd8646d0e50e63c08e0e971f443d8f6e9178843a1629f79efdb0",
+    "references/ai-tells.md": "b98c3a19b3a75c714d69e80a0076e4c07244b0e833c2ce81ff2631224fb7f7b2",
+    "references/copy-frameworks.md": "4db06c481a904be3e4571ad8f671532c97ec186ddf0fb8aee3e3a56ef8e3d441",
+    "references/natural-transitions.md": "9bd61b0de5be2c4de4ce130c68236b4f290b12737823827a458bb2b4c8584683"
+  },
+  "cro": {
+    "SKILL.md": "6e172cc38178c800ff41ceb097f36c6a1db8035fb88a1fee53043f8ec38a6f35",
+    "evals/evals.json": "62f3003602836e2b49d797ca582e7703629a6b07b131eb77b51b2bb39fe65775",
+    "references/experiments.md": "bbcc356c0af36cfaa4556bf9e929deac30c65cafb37f909d7c51d4777fe254ca",
+    "references/form.md": "49b8f29b3da1ae6510572288cad3eb1f3d43a969373443be98b38639746587e6"
+  },
+  "customer-research": {
+    "SKILL.md": "22964b89315a6cf5524d3f627904843e7826d40e06689a07faa5df25fc730bc7",
+    "evals/evals.json": "fc8a15d12e582b55fa52ad27925594ab796ebd6a8ea13fed13722f97e4c51f01",
+    "references/interviews-and-surveys.md": "56adecdc40af1242464937100349fc1a161627394909551720494bc5ee537076",
+    "references/source-guides.md": "7490a8d04f209d4c8c987530e79d0883a6b42027b86a920fc751cf8ea9904892"
+  },
+  "diagnosing-superpowers": {
+    "SKILL.md": "3143de8695c5a2d63e8b1675f33837578076f464deb127c2ebdd0b46fceef886",
+    "prompts/analyst-common.md": "88801c36070be2a54a8a9a29632b01ab21db053e2e76ee49b5252a9b74ca4090",
+    "prompts/cost-and-time.md": "fe97a66d4db3b436816ef82694bda413b522b3a862dd41978da01e358fffecc4",
+    "prompts/plan-adherence.md": "1dcbab82033598a2e9c9ee42e950d4b1822d2c871c02cef9e102cdd5cbbda113",
+    "prompts/quality-evidence.md": "749d11cf678f379ed77a29274cad456634e0284aa523639a1a214a9f2b986eb1",
+    "prompts/repeated-work.md": "895027f2dfa4b1b8bcdb7ac9aec8d45a80bff212fad6ec6cad5ab38fa68322f5",
+    "prompts/request-conflicts.md": "e800e38d8b7752c212c76c5c3ed75cd78b749684263ea0c313586f26af6f4b5c",
+    "prompts/scrub-audit.md": "5cc48f05a7f81f5f7e05e0c7ceafc0fb8774bcaf75fe88dcb5c7e408026c70ad",
+    "prompts/scrub.md": "854cb3320cc5377b493cea2f72519d67983464882db68a0f408a7d0a0f040b8c",
+    "prompts/similar-session.md": "b190f713b463df2bb5ec3914647e204074d1bd50643a53159db6d13cace916c1",
+    "prompts/skill-timeline.md": "45d604d583b57a77b9033eced8eb875ef342af70fcd66cf7d15c6dc89964890f",
+    "prompts/stumbles.md": "1f2d1f048aff7b8b400006301f1ce8c232ecc7e9d5f705af27a849b2c03ea2e7",
+    "references/context-safety.md": "e6be2bd3495f454d4bedee9484d728d245d1fa656e11fc4ceec5693c16e4730a",
+    "references/github-issues.md": "d26ef9197b4a6ae5159ae6d11abd162bcc624d95fc7ccf508e07b68f916a1b19",
+    "references/redaction-policy.md": "96b16f47074838fe2d7e609577d6f8b0ad460f8378b281a3f96ee23cb5a08bde",
+    "references/session-discovery.md": "6d1dced083e5d978448a78df298cf515531b0eb39b2854a4a2afbffeb69a7435",
+    "templates/bundle-README.md": "2e6ddc6b106028d5ebd00a50ad93a77111d675c219ee1273cd0857869e8d51ec",
+    "templates/case.md": "597892462be83bc478536ec91f7c285f6dd25d119c560734a3a180fe8471301d",
+    "templates/issue.md": "afd21779e5de5bc5adfe2f5a50a04e44ab8d50d9ad0f829243de248d6f023eed",
+    "templates/report.md": "38295d0fd785e8608f330815c59ebd7047942002ec7085aecbed54681f56b0c1"
+  },
+  "directory-submissions": {
+    "SKILL.md": "9550a92b427638506875fcc2bdd772fb972d52ff10c923f3b2164f3f91c02ca8",
+    "evals/evals.json": "a8ea17c0d823f945438ab70d9d5c2522b8a4eae77ddc80b4086ba371301325cb",
+    "references/directory-list.md": "558574465f2c40effec53dbd895d8b9d047d937816e997dc2055595923e94e20",
+    "references/positioning-variations.md": "6c1bad13b03dbde87e24e3751d56c7259297cecbd1d022d8199168abb6ebead8",
+    "references/submission-tracker-template.csv": "c9aea753150f798ff373aac8d5ed6dea47ac46c7420ff8e174e932f87a78b8ce"
+  },
+  "dispatching-parallel-agents": {
+    "SKILL.md": "1968923066f3b707eb01d1992cdf4c42284c3855f70253b9cd5000ff45fca13c"
+  },
+  "emails": {
+    "SKILL.md": "8709631cc21717d17db9bb7e787ea44768d77182daf9846de8718a2ae7433b91",
+    "evals/evals.json": "b90182c8b6edbb866ef82ad022db3d2fe8598e7329469117fb39edd9ab069f67",
+    "references/copy-guidelines.md": "02f08897e4aa99ecc4ec1893d61d0c26d0c5e62e09af26f175087455e9b68e01",
+    "references/email-types.md": "a5dd4f0555a7b21d2ff426948d15657825b9d16265652563f5e272d2e1879bfd",
+    "references/sequence-templates.md": "f8f318f10e29abcd009cbee29e2bd178981d96c973099b508d30af6c10ab8d79"
+  },
+  "executing-plans": {
+    "SKILL.md": "deaf176fa179827e80f2ea3101db3ea90fdf562ebef340eba761e4687940f5f5",
+    "scripts/task-done": "ac0b5ebafc7d471507b7e94d88da77a11f187ba277c8d48fefaf8ff3e4fee50e",
+    "scripts/task-start": "4ae7ce3b6777c3240af786197836a6b4bbf3b0ee831c25f147c149ea8db54a21"
+  },
+  "find-skills": {
+    "SKILL.md": "c00eeea0e13e74fe4a9d84ba0a8542205a1b736d65f13134fe1a6647eb14976f"
+  },
+  "finishing-a-development-branch": {
+    "SKILL.md": "8db5a922b242dd4e1bf824cb91c13b3e8d8e8a86d6ceaf7f0774eb9cce909d65"
+  },
+  "firecrawl-agent": {
+    "SKILL.md": "494a8a00cd9bc56b8bbfb0a37f82099b9d405cae6b0ee9c4898032cb1b06de63"
+  },
+  "firecrawl-crawl": {
+    "SKILL.md": "f4f2b262564c1532fa210b29fe783213fd41c5a1169b0a7b43c3dfb5dbdd706c"
+  },
+  "firecrawl-download": {
+    "SKILL.md": "1127c7d3977794bcb8618e218d0d07a1cfda59da5ab4d9f52a731c45292807f4"
+  },
+  "firecrawl-interact": {
+    "SKILL.md": "548d891f416070c22d8dfb2347b1a5baf92b3fc3b2ee676e6fd09295b8344a57"
+  },
+  "firecrawl-map": {
+    "SKILL.md": "0697e27b5cafa11987235415c556b625e04dd562a295468041d792ea42af06b8"
+  },
+  "firecrawl-parse": {
+    "SKILL.md": "bb6a1aba463de0b11314e3a63067f8c414a85019248f3de3f753de07e1fad700"
+  },
+  "firecrawl-scrape": {
+    "SKILL.md": "98c9b2cc2944270caba6c73e4ea9dbb38c7af73b6bfb35ab9ad70f7e8ee79170",
+    "references/large-results.md": "718c1d3a3ab187be6ecabf53fdbd8c685c4bbe65814d549031761e6c84ad26a7"
+  },
+  "firecrawl-search": {
+    "SKILL.md": "86eff5f134da2e35a22aabea79013d0d1eca518c0ad3761fb3eae47ffcddc2d2"
+  },
+  "free-tools": {
+    "SKILL.md": "77b08d1c534fa3d4513c63df51b7efe165c4d6997500f3d97f5d1ef4e0e6950b",
+    "evals/evals.json": "240282a81d7a91c335da86d184e3a1ac2dddd5e286505c4177bcd88c96e67990",
+    "references/tool-benchmarks.md": "7416869dba463a40341e62d3dff70374c0ce6aafee9948ea6d10d44ed4ea82f1",
+    "references/tool-types.md": "3869418a784ec94e95528dbe3f39cd2571cff6f7649e5e0be28d675be61d5a3f"
+  },
+  "frontend-design": {
+    "LICENSE.txt": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+    "SKILL.md": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3"
+  },
+  "gemini-api": {
+    "SKILL.md": "e7c3d77f23d750b1473885fee3c356260966739edf5679522a54a7b90680e020",
+    "references/advanced_features.md": "e1272b70dee7692ca5bfc89e4e871be4834d805d19deded492221cc5779d28fa",
+    "references/attribution.md": "b1d7d2e96838c92e62303501d66019b5aac652a1ad64d5f108635a282ed65a56",
+    "references/bounding_box.md": "4b930915944e478d5e7aa7fb71e84ddbd655702e1ab03b5b4cee65b9f1d6066c",
+    "references/embeddings.md": "4a3d3f754dbcd935a2f01d1bd33918c1d9bef3730115f4a744537c0506ee99fb",
+    "references/live_api.md": "be927fcc21ee3cdea68d5172cad957885ab09281ddea8f85eccc02ef3747560f",
+    "references/media_generation.md": "c45e84ad3573a0fb954a354cb7d3cfd479d584896f94c52d84f20c884dc5adf7",
+    "references/model_tuning.md": "b46fd342db759b17a8bdc6766574012ff4e282dff6f0b290f81bdc00e8bed288",
+    "references/safety.md": "776d17e1522a3b3972aedfeb21762111a65d32368238e9a90632836fb3f23881",
+    "references/structured_and_tools.md": "cbd1bbdcdb79948856198d8b24ba7106cb93b66c721cdba39edc23be649e7e51",
+    "references/text_and_multimodal.md": "83a2ee792b47b919301e40279a1d2bebb82cfef6386bc11bf7ebaf5c3e86b96f"
+  },
+  "github": {
+    "SKILL.md": "d2c788a0e5ed3f320f30af4ee9482a7d97585eb36313ca53c3619d769f576283",
+    "references/common-workflows.md": "e160fb044fba5216f52aba89dd6f14a4764eb2b9c045ba736a2d4b8499376ecb",
+    "references/permissions.md": "45ed9bd0dd4353d2a34ef388e826642acdb02a8fc4df37a093e5fbf43bbea39c",
+    "scripts/github.py": "751b00af3c98fa5646598ad1f867be2f5080cdc3682c8cb93010df30cdc656aa"
+  },
+  "google-cloud-recipe-auth": {
+    "SKILL.md": "3415b14510b1b32a25a04233d2e81b2c8f4a923e4a40486f5b6fe5a4439afa54",
+    "references/attribution.md": "088a215373cfef7827688fc5f1e99c902d24616614cb978c0b0abf172480fb86"
+  },
+  "google-cloud-recipe-onboarding": {
+    "SKILL.md": "f922dea42e381cad35279bf39432e2371abaf009255183e7340e4703f8ab5b61",
+    "references/attribution.md": "76fed34f238e352f092a43d9f256e51e4b41358adf04b6696088ac494866b9fb"
+  },
+  "google-cloud-solution-architecture": {
+    "SKILL.md": "73e6fa8e1de27567623b16458434ef609910e59be971940e585a3d2466c4c478",
+    "assets/output-template.md": "1e860e851c27001a1354a2c384bdd0c01a7102ed8d878861bd4952e3265a6eff",
+    "references/architecture-guides.md": "526e3b059ab053b434e0d1386b24d690ea739fa24f1621ae3019ec84a9d50fbe",
+    "references/attribution.md": "06093cb9e492191928ed0f6da12d0d775301b7747869ccbe6062d68a3e47ca3e",
+    "references/best-practices-guides.md": "ddc38030e326fc796df88eb149f3f04d398f2231ba8dbb93c404bcd66b46ac2a",
+    "references/decision-making-guides.md": "d33b563fc7326c0b68b2dc5b619a652b1c8e1901df4e8b9598239aec52f0d986"
+  },
+  "google-cloud-waf-security": {
+    "SKILL.md": "90cf88c53d4bcf9f5239db2529aa7bdeba928701e85d406b559d3f6a12e57434",
+    "references/attribution.md": "8ec0250a241c432859ac6123128901975368822e3a917f27c524ec5400595719"
+  },
+  "image": {
+    "SKILL.md": "65194b8fa6b7f24fdf95863f02283bbdf6ed36438d8ab195fbc8be56157759c6",
+    "evals/evals.json": "61f38e67d5fa11016e97391e360402fa696e059015c754f422d061a361a3cead",
+    "references/ai-image-prompting.md": "a4a80ada1e2e1d5e1d9ee1557486155bfc850b46e1c4218c926ac6a806d9f78d"
+  },
+  "launch": {
+    "SKILL.md": "30537ad3f4b0429fcc4053cf6bf04bc0dee316b9e5f7e7ec2e74a9bc44a9ead7",
+    "evals/evals.json": "f2ceb01d664e24ea253789a9a686997f5cc33a0fc99f57bf215acdada787322c",
+    "references/shipped-changes.md": "873c79d17d3f428147348a9cc2a5e3d6bb8282cf13fc8a143d539840e8abaa96",
+    "references/site-launch-qa.md": "aac0447d0d518468e86e971f4e781b61ee05e81dada402e2edcef709cc6418ab"
+  },
+  "lead-magnets": {
+    "SKILL.md": "b119ffeb164fb55f08f3b057265b8120eade2f0b4440a7503e451dc7688f2bb7",
+    "evals/evals.json": "459b4b4f69f5717f23f3029597026c07f1201978e0bc1923f918501da3fe7a6f",
+    "references/benchmarks.md": "becdf4bcde17e788ead10794c797294548c712ea1074e042336da93433a61187",
+    "references/content-to-skill-corpus-design.md": "a6db00a8298b2ce52965c40b57c01120a0f9ff4caf5ca55ede81bc2f242bae56",
+    "references/content-to-skill-release.md": "87bcc9218232b73b824e8cebac1e64deacffa755779ce2cc0db799c92873c891",
+    "references/content-to-skill.md": "dacbfff6d538ee37167f20034165dbf3a273d8bd1607def6450c649e40ebafa9",
+    "references/format-guide.md": "401f65d709cefbd7ee2df11273e0b616ec50e37e71d914556c800067fdcdef8e"
+  },
+  "marketing-ideas": {
+    "SKILL.md": "945c46ea4e3bf2a237bcae0942ea2db44b981b63ec34db1bc636caf6e665d294",
+    "evals/evals.json": "f97f2bd1c755e6ca85ab75c500db681bd19559fb070ac249bba135ed7d8ecf60",
+    "references/guerrilla-marketing.md": "07b0534b579ce1916a60e79ab426cd936e78b4b261802d6486ad145f7bf552ae",
+    "references/ideas-by-category.md": "8b6aa55b3255616ea80c0ea45eca8f2bb70e528510ed76f6392e71475dd0c09b"
+  },
+  "marketing-plan": {
+    "SKILL.md": "2b75dfae852bdb61fd96eebe3d2b373f99f67c86ff830f796310f662ba8906e8",
+    "evals/evals.json": "79c3b7680e6ab2f6e4130e7bf13bbfe4011470a7aa44d128344e1505ead4bb57",
+    "references/aarrr-framework.md": "5c7bf583c2aa62e193789b6b1a88a978bf3ba9dc0c8c6653b53f7f62c0c1a0e3",
+    "references/budget-planning.md": "4351fa1712b66e3e527b71ec9a2e01a68edb43e77b6d310bb424756c6d1a17f7",
+    "references/client-types.md": "06e3d0a6f3e9b7195a8c0b43d5186769d1554d1dfd8b1212aca220f9ce09fc01",
+    "references/current-state-rubric.md": "8ab1d4a4d16ec01c2bf61d83807c0abd857aadd82f3eeaf4e4842b4bbeff1f03",
+    "references/example-quietude.md": "63c002257ee1f6eaeb7c99c4ab9c650ea8bd8f7586c75e4565c2322faef82a04",
+    "references/funding-stage-unlocks.md": "49f073653ac32dd42b7e5e10c3deabd7adae8120c41baf0cf813ec20164c6488",
+    "references/growth-patterns.md": "fafa84b8c3a62ed9c33c30fc25c7422e0d87b935de990d0acbf91889e1a053de",
+    "references/idea-cross-reference.md": "350fa9c6f4cb4cd8f23698adb8479ae94cd6564a06b2b7cfcdf1430448e68d2f",
+    "references/market-sizing.md": "e991bf2f38948ea4e829c74fea83f367fbcacb4d6c2ca0f4ca89fc8b9fb2bc0e",
+    "references/measurement-framework.md": "93d9bf9d9e624a6031a27ce61cf1617e3aa5a8fff57e1c6f80194f847234b745",
+    "references/methodology.md": "a5ae96ee26c800aa40eafcb525139e3dd49b2c1d24005fdcc038287ad25ede7e",
+    "references/ops-stack-mapping.md": "9a506816d87ed176c0578d13bbf25c5f8398872d9002b3589e2dfa42ad17c907",
+    "references/plan-template.md": "bce84c2c3c31c9163a0849a1371aadb13f6ab8b29402e64b7d5b95c316a79656",
+    "references/team-and-agency-model.md": "0c5e55c0992de4d5d24cd299eb46765a8986cb204ebd7c65bce32c868ae0d5f7"
+  },
+  "mcp-builder": {
+    "LICENSE.txt": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+    "SKILL.md": "b483b56d6673134497e45489c317f26ae0f1429c194db0297e43073e17e6748c",
+    "reference/evaluation.md": "8c99479f8a2d22a636c38e274537aac3610879e26f34e0709825077c4576f427",
+    "reference/mcp_best_practices.md": "80fb4369a349447cf18ecdd7494fe7938b6065377e9f08c077cec411093a3007",
+    "reference/node_mcp_server.md": "ee3c95d812e450f6168b734390d0c9ef6f8ebeef041d73a122c972dfbd4d476a",
+    "reference/node_mcp_server_v2.md": "49b2fe48f33910b743ae3a56353fffa5d5f252f531053f24f2da4e5914c0d3aa",
+    "reference/python_mcp_server.md": "2da52f77e675191014ca2e146a4b95aa04d0ca7dd7e2b100322df15ade685e80",
+    "scripts/connections.py": "9403668a2041568772082a8b334122c1f88daf0541fb393af4522d0094a47a6e",
+    "scripts/evaluation.py": "49ed1d17cdce5da101b210197740713f49b935c29d4f339542a14b132658e6f7",
+    "scripts/example_evaluation.xml": "9272b348ddcc4b06ba562367ccd0770e018158c0068ac5116d5e34aaeff8777a",
+    "scripts/requirements.txt": "d5d7558b2368ecea9dfeed7d1fbc71ee9e0750bebd1282faa527d528a344c3c7"
+  },
+  "onboarding": {
+    "SKILL.md": "61b808c85207e6567f39e5d6b7876fdad77b5f17f5811afcd8b28cfce6dcbe31",
+    "evals/evals.json": "296b62f2dadbeee44108b68ab7f8509e5e7d72f5bc7b89759dc869b623badf97",
+    "references/activation-models.md": "e4d396e2dacfc19bfa33b8bfaaf8639e5a2c0b8a252bf52115ecd2561a2f35e4",
+    "references/experiments.md": "b4caad0b50ca9483a6a79846d0b24a7bab62850b45a3f2232d73f78629468932",
+    "references/minimum-path-to-value.md": "c2b7c71b8436a1456888a26b9c8892c33cd9e1b1bf758f6fd7282c00f87dcdc3"
+  },
+  "orca-cli": {
+    "SKILL.md": "e9759aea664f54561946eeb40a6328031330860cda0817f2c2aa2cf529d5c1b3"
+  },
+  "pricing": {
+    "SKILL.md": "b0318f64140e60a28d0cf71b1a6bf2aa214b96ef2bc3253c60d16ae480367d25",
+    "evals/evals.json": "ea2ec5a51826311225c806c9ff3f7fc8c4716b154f7b91aba67ab8639bdb8984",
+    "references/pricing-models.md": "2cdb900b74f56a796c0331725e73eff4ecd84f8021b42efbb0a5b4903d1d9b16",
+    "references/pricing-page-teardown.md": "b58a3bffa58ae7c3a475aba33887daaa98e0dc0de57ea948314256b08aa306ad",
+    "references/research-methods.md": "90337058da40c2fcf858bfee9ee8905ad1dc3a5f90d1878f9a8e9ab79193631b",
+    "references/tier-structure.md": "b59910d37cceb74484f28b065963daa60f5c4fb1ffc36a0584d0f3cad11f3e30"
+  },
+  "product-marketing": {
+    "SKILL.md": "19ece0fa75c72a5a8b6e90db80f506586f54cc93bae6bffbb1bd2ef4ae7d603c",
+    "evals/evals.json": "0c6599b88f50ec1be91096a36ba6c5a15cf8312151394e3469e5ddb991b19afb",
+    "references/brand-voice.md": "932f3453db2761f03050792e39800150495dab449750b40913a4314ea97e7672"
+  },
+  "programmatic-seo": {
+    "SKILL.md": "5fbbf874bcc65cbc8b527bd6074a21168c73e191e1bc2c124438dfae710ccf04",
+    "evals/evals.json": "d336e380eee0217b0be6e472703434b9e6ac4a424957c6b4a080440646c8e285",
+    "references/implementation-platforms.md": "27d86221387e0880768164d4d03513c85a594d11d12c7a6dd93ac17881c131e2",
+    "references/playbooks.md": "2b2acd3a0c0e5d60b1fb5b71a173aee7ca28de659a7e8ede3effe8525564eb0e"
+  },
+  "prospecting": {
+    "SKILL.md": "bb9ca9c00ab0dc87e1ed6bb40afd93e559eabb80139ad788d597ebfa7dd11ccf",
+    "evals/evals.json": "e8792953b906e153bab2ee8acdae544fde81e132ed00ec1fa19852c068f68e73",
+    "references/account-research.md": "cf09a7f41b4963d919dcdf96d659fe898a1ade5328ab481864419f6dd1d4bba9",
+    "references/b2b-prospecting.md": "b7a05da9d1584cc8d21432a43fe1ba802c4f9a6c601e3885d4117cc9d4d52f37",
+    "references/compliance.md": "b7f03614af776e90259f28cc1f484ce22a86c71ef35a1e5a4b9e24b6d89aecd4",
+    "references/data-sources.md": "2262f2172c285b98b1df73974d4cb441c8f835645b4d7ee21a340ff5df2a1182",
+    "references/demand-signals.md": "489b8fb96a828578b6812bfabfbba8ce86d07545b21716a873501ba4d464f4ee",
+    "references/enrichment-playbook.md": "dcdb131d83e0a010fdbb572c828b621e9db10f96b6fafd891499683ed9a4a63c",
+    "references/local-prospecting.md": "1dd71471a3413d5b0a9d230b1e42ca95469c617285bf7e2abdfa463428367fc3",
+    "references/saas-prospecting.md": "18be53f055f3f8a2ca647dccc8d8d8d177a0df5820193463542f87fa4eeafcf8",
+    "references/signal-plays.md": "034bdc18150290959c18e5566f4c0e051875e45b1e3b8eed92cf7fe26a847ea0",
+    "references/sourcing-and-enrichment.md": "d7f47cf69ee1e78bb21c50f2b0050460899f8e9e001c40261e08e38dd6fa9fbc"
+  },
+  "public-relations": {
+    "SKILL.md": "a04cd2f27e2d78e0b3851553661f377f5203eaf75fff724c5abb3e4979701c8d",
+    "evals/evals.json": "ade8bc9b9d397494ec412469fab162dad4b9f9767332812e8affeb1a52bf694f",
+    "references/crisis-communications.md": "55a00b7d23af710a4fe23b695707c1cc361ac94673bcd93ca76a2be0c0834aea",
+    "references/journalist-pitching.md": "ba0b853771cbf6eb29540694b0dee72a393cd79b46d7fd2d9b70c8bbcf85c663",
+    "references/media-outlets.md": "49c727db10a86d0d227275b970a131d677961ef7cf16e0fc8ced588688133899",
+    "references/newsjacking.md": "73930fd20a8fcf73f6d47c28d9a1574f241006434267b9043e8ab0461f0f2d42",
+    "references/podcast-guest-prep.md": "cd6dba9a9961a74777a0c7e7df1e7132264aa7e04f93375f092fb826ec720b19",
+    "references/press-platforms.md": "e999335222a30df0954e324e6d35ea269c5d9228c609c0f33bc1d2bb528fb244",
+    "references/statement-templates.md": "65bfd1995ddcacd9dadaaa9174b586c831e857ac163b0f53ec35ff9e4f81fc52",
+    "references/story-angles.md": "2fc3597707d8eab35dc021e2e0e79af82b56283cb8bc024011e78b995e56db07"
+  },
+  "receiving-code-review": {
+    "SKILL.md": "091df1629510af1b92fc4abd6f96732ebedb4cb2c0f3457e8f2740b0504a2438"
+  },
+  "referrals": {
+    "SKILL.md": "d1b9e0840b0bc788b51decd5283fba505be29ae22ec8d92e912ebee36020d7fb",
+    "evals/evals.json": "5148d0e25787ed7b2305b3f356ebf4c329181933696d1085a3f53f3b32b0e766",
+    "references/affiliate-operations.md": "fc045ff9c7eba29b13219d56d28fb15c8240439acf2df7e7a6205836948513a0",
+    "references/affiliate-programs.md": "b6fe63ca69462d28b7be74f4f5f4f237d2c9f72179dc5d3ef80f8fab37fccce7",
+    "references/program-examples.md": "3ba131b1d6f77c115134a6d56bbf10709fe4822f65b6a3446605cadeebc6b107",
+    "references/review-platform-rules.md": "9c537eaf4be1799d58f1c563fc660f1b4303c89feded6b2eda304c4ff2c0cb01",
+    "references/review-program-operations.md": "9ca87ad31a59da14f525c273f2c3df90d47fedec7e38d7689529f6ea8e445192",
+    "references/review-programs.md": "b5e3783f12da945bafd88c135e1ccebbf1cfb578715b02c0cf73b50af00aa645",
+    "references/viral-mechanisms.md": "04224240fae94bcf9bc64c7d8cac507bdd570049144e4df33946ac4ae8a483e4"
+  },
+  "requesting-code-review": {
+    "SKILL.md": "2180e14a448e9410bec88e6646a2d1f0ce7fdd58de27388c1e052e929679d2bc",
+    "code-reviewer.md": "82e370be6b3447523816286195571e4216ba56ba1ad6ad0e87862294c4c78dcb"
+  },
+  "revops": {
+    "SKILL.md": "ac0849626fcacc2da6c64e2ce0305dedf742032dfb7ab0f051c0cd8c8e2a985a",
+    "evals/evals.json": "fa11d55563f5178a42309f9704c38df716ade44918197578d3c4fc06ff62e344",
+    "references/automation-playbooks.md": "57ab12a9d111cc557fda52fde1f861ccb44667b3449c71cff9059a391a447adf",
+    "references/inbound-routing.md": "d177d982745142231b9ad1df715817d91cd5198dac52826902843079403105ff",
+    "references/lifecycle-definitions.md": "bf67eff377248f3d2239e25ec357e4f2e0b978fab7e8a85e818032a396fc7e6f",
+    "references/routing-rules.md": "9057c207550ff289e84d6b25ca9d38b436c98a517e0aa4f30c2ff8f09f5d8370",
+    "references/scoring-models.md": "683653208039ffceef2c72b3c070c86744fe1407ac2c27483e8e3ccdbd4262a9"
+  },
+  "sales-enablement": {
+    "SKILL.md": "d30008d34e6a314b422e0a35cacf38aea39d39d2c48683e1ef6edcbdfca30ebd",
+    "evals/evals.json": "5a051cfa1225515da3176a93ddb907b8efd091f9c4a485ebcdb867eea1cb7bf0",
+    "references/cold-call-scripts.md": "cc4e3248070804539f8c1de01fd63918d8e40a6ad858dea2a519d50a060e268f",
+    "references/deck-frameworks.md": "265eea6c1b358d10f2dd22fd987789a9d115c14d30bf77a9086734ac60659336",
+    "references/demo-scripts.md": "505616ebf73d30fe84a844540727ab8f3aeae29ebcda8c8ace28a18ada003da3",
+    "references/objection-library.md": "e0cdfeffc41afbdbe2c014bcd9b3c024318eac9bd23159e871ec796aba29e0b2",
+    "references/one-pager-templates.md": "2197326faff4ede03fb40e332e9c80a4e084d8efd48c74df8720d70817ac5ded",
+    "references/win-loss-analysis.md": "f6f34c503f4cc506a8f24bfea6e75b260e3eff661da206399e162960141f090a"
+  },
+  "schema": {
+    "SKILL.md": "d298f5d6e1b33b6825f38ecaa05c4d33ba9e45e346b224bd86f9834e46f67a94",
+    "evals/evals.json": "508d08d55abd5f1b71795f07be0330cbd4ab92d20ddfb77964d053962d6f8f16",
+    "references/schema-examples.md": "9b093bce816fac8494c8ccfd588eeb0c00e1308fe99bb46388ff222664ed94be"
+  },
+  "secrets-management": {
+    "SKILL.md": "293527164f627d889cebdf78a2b45455952cc402797236461644b376af8dfe53"
+  },
+  "seo-audit": {
+    "SKILL.md": "e0ebb5808787f2ff26b96d7b429423874d9785541cd4ab775629a5cf1137e7a9",
+    "evals/evals.json": "1524e98916ab53abb894fb80827a8d0e1815041adca2ee2023b89916d68f22b2",
+    "references/ai-writing-detection.md": "f1e273f56ce7e2215ff218bf903680ddcec0fd026ab90c3ebfb3439ed0edfaa4",
+    "references/international-seo.md": "0603022cca968acf7889fc224221aa0e70955ba64355bc18b06f7e86b32f45e5",
+    "references/local-seo-pages-and-measurement.md": "20607ef91c4b8b37346f42130a6f51ed4ce64dc2731b6e1328b5b14f16917fe3",
+    "references/local-seo-profile-and-citations.md": "83b1b63eb6083e7aab1f56c4928335ea2a235e837861a9e9e8043b6af162a1f3",
+    "references/local-seo.md": "d2666d9c225bc36f9737ce612894abbe7e263b5974e2db7c1efc50f6010bb376",
+    "references/rankings-push.md": "c21d6d4f9faf7ce5b1dc0f8bd508e7513967492fcd8ed9510a175ce243daf8c8",
+    "references/title-tags.md": "c40b3c6af3600ca15670db8eb81000c7ca6fa25265a6550ccc630f53db3fcf51"
+  },
+  "signup": {
+    "SKILL.md": "d50b1183be692ba5ce1db31afbbd0aa2a5ec06940b22105f85ea1764b15ca930",
+    "evals/evals.json": "ce012fff8e559b5f622826826e7b137c650c96f8193a7e10add60f75c2417edd"
+  },
+  "site-architecture": {
+    "SKILL.md": "55c0128ac29f628944444f8850b97913517f57131673824ebcad4d5ffb26ddd2",
+    "evals/evals.json": "ed6f68ba0f8355efe26d89eae51d64c381d644cc7e942e80539a660cb52c9b02",
+    "references/mermaid-templates.md": "362190c7d3f419d5f445170f1fb17beecc163937d2068922893b7a69eeb25f0f",
+    "references/navigation-patterns.md": "2efa772709b753e33d5018c007147ca30aaa95a04b04dc0df6227ea5a053078b",
+    "references/platforms-and-migration.md": "391f12c5994e1e577db75cd6044e038a276f14eda1c2ebc7f6a92293fbc59448",
+    "references/site-type-templates.md": "3c3cd7ce5e31c502dc071baf82bb58cb30f5edf4a2fd8ca052fbc8f3777db140"
+  },
+  "sms": {
+    "SKILL.md": "b4c7365b280ce1b2cffa58cffb11ca9f0d414fbccefae3e73c52312c52afab85",
+    "evals/evals.json": "cb0b825cb124b131792e6d7bb5f7bdd1557b39905568f356e1e3a172f197bbd1",
+    "references/compliance.md": "bbfb8f7c359cad650b7b2d27108e2bb12365a6c604e464ba3e94195b3938f149",
+    "references/platforms.md": "3f3e54cae72bb722703be6bae76dc1f6fa2312d5541105d425bcc07cd7a3ff12",
+    "references/sequence-templates.md": "c61e72b00bfbe80e87a771840164a2a487585f202bbd3f010d8c60485339b220",
+    "references/whatsapp.md": "359f03cd9528a5ddf19344b1ac156daed77ff3396921ffa31ede0fda4799ce63"
+  },
+  "social": {
+    "SKILL.md": "e34e66ad425840acf728fd64866ab8c8da01049408b5c814fa5d90aca7861071",
+    "evals/evals.json": "1d2592a0cfc6378ba8742ce6e19f5974663b1d8018c4f136e5f529373bf17198",
+    "references/carousel-frameworks.md": "e703aa530ec9f68cdf5b58e8e0d4d1a5cc3f22b9e2d3e3222f16a9763d423247",
+    "references/listening-sources-template.md": "c68bc6f57b0a48c432b1ce72c9324d41a04d0e7784d0bab91afb4a6065a43e38",
+    "references/listening.md": "52cf68aaaa57a69b69b3587ffd9b848a6f1ca7e0d51378f566339ad7f2b730e0",
+    "references/platform-limits.md": "6ecc6b40ff82b95c48906341f7d3c58337671d4d94f624c858764f1ed5a77c3c",
+    "references/platforms.md": "bb8c2f466184518a1290edbea99eef6b7dcad8e1f8091453d4dc5a21831b66b9",
+    "references/post-templates.md": "9cca4680c95801daedfd8acadf9089d0083784c2567784888807569896f71d9b",
+    "references/reverse-engineering.md": "c27bef59d463b3b11331c1770f4a23e9e6bbce7d7c8db1e7f7f4f14ba206243f",
+    "references/short-form-video.md": "04b567900eaac90833f3abf370a3e1c4d650f83a0672108e07a7f01bde3a64ad",
+    "references/x-algorithm.md": "943b2c5a819aad53ebf62a1652adc47956d6fdf738e18cd98eeb609819a66180"
+  },
+  "ssh-hardening": {
+    "SKILL.md": "9bd3aa0a0d15f6c8a54c78968d7da22498339bde829b9fc972ac72b2f0946a9f",
+    "references/sshd-config.md": "8294de2a4016beda47596eafb06ae1871bd26e067c9c120df88675054ce0c3b9",
+    "scripts/generate-ssh-keys.sh": "2d838b6ffa509b5973893248f4e49f57f446fc4d4fc59c8553c3266197374ee8",
+    "scripts/setup-ssh-hardening.sh": "b2c4623073ea0d651d45483e5bdceee1d29f6efc2abebf154604b936b64c1fa1"
+  },
+  "subagent-driven-development": {
+    "SKILL.md": "1baf70e307bde682c462513c86116333f1f066168c6710f45145bf5f0b00828d",
+    "implementer-prompt.md": "81dd9d5a3fb0b09b96b5829f03b9796842f3199ef7591d1ba1c2db2a515f64d0",
+    "re-review-prompt.md": "ad54d0a10f1c2c8e656456e0a46e654af5dfe5ee6bcef63428cfd69b8dcd9311",
+    "references/batching.md": "b54dc7e23dbfb90db89bcb2fb3af591aabf6a271a165fbc0da4c6f9439980eac",
+    "references/cannot-verify.md": "e698713a15e0eabf1a2ab26ffe1bb04bf70c9d6d2e2060d44a0f9a1bdd4408bf",
+    "references/final-review.md": "6c9e12093e46c4ad0a203bc07709c17e3470f855f1b78e55c5e7b722a012a32c",
+    "references/fix-loop.md": "1938ce707915efc44021e563ebc29666329e20ad861b6c50b89f305b8f4e8d8b",
+    "references/handling-reports.md": "8f759cdd4936220c38aab05b6d6c48c6df8ac8f146b0f37a6d2facbf87133c67",
+    "references/preflight.md": "3ea21c5fc1af1a190ac8a9d19ceb0849b47bf2ffe27b87dffcc21b6a0539776c",
+    "references/resuming.md": "ff6e38bde2276faa2a7e93513086caded0ea10edbf2ec7f349a7e3b0d7c668c4",
+    "scripts/review-package": "aed7c6e09fc660417d28898ed975e84651cb9f18f4675141cd475edfb7037f3d",
+    "scripts/sdd-repo": "6f8256a776968d394bae679572e41ce572fd45c72074b98f9a8eb8b4f160e06f",
+    "scripts/sdd-workspace": "de3af5252fa595fc2000ba05cf69e06187d5c8aae9d283cced4c167ad1813061",
+    "scripts/task-brief": "0f244a12e146393c552ba62069d3eedcc85cb3f76de67b01f4e11219e5ebbcd8",
+    "task-reviewer-prompt.md": "61a04c2fb29907887d8babee1594f5e35ae26d461e7e584f5b7c283215165e08"
+  },
+  "systematic-debugging": {
+    "SKILL.md": "51c6435d98c83c42c96ba7c35725a0b2c376cd487fb1a4e6bd0ddbe7e33ef202",
+    "condition-based-waiting-example.ts": "40ae5ebe497fdf310200e43fe986552546d0a22837c0d39e855db1cfd33eb88e",
+    "condition-based-waiting.md": "e89fec8400d6cd50f43407cec9fab50976ba4d55d0ec2eb51c0bd68036b54c26",
+    "defense-in-depth.md": "1e175fb86fc357e58c6aebf5441e481e1b7868b4380c0456b63a17eefbd18ba7",
+    "find-polluter.sh": "dd7b8f13c4cc2a24b33ff87b18da9248f3e1c80a085c3316224f69ff0fa5c43c",
+    "root-cause-tracing.md": "75b933b6a8c40bdb2031b10f21654395b56ec6ab6bc7b018c18d3fe57aeb7fb8"
+  },
+  "test-driven-development": {
+    "SKILL.md": "64b03fce4aee5a97a93160cea8111f3ba13a17b7c001db4bd5836d67fd10705d",
+    "writing-good-tests.md": "51471c853306ff92ca8bb41dcaea05f31c0e46b03651f8f3c99754b7172f4ae1"
+  },
+  "tmux": {
+    "SKILL.md": "3369ab9170b8f32c89619f945a9b74ebea87b75eff608d37c7c1495d479c5d12"
+  },
+  "typescript-pro": {
+    "SKILL.md": "8daf86209657bf76e299e6ed320b13618568978ae265c7084fdfb391a8097af8"
+  },
+  "ui-ux-pro-max": {
+    "SKILL.md": "14f43337edfbf7822e091428e4ae0c6f92f86e3353deda6a30f6613121e2cf2d",
+    "data/app-interface.csv": "331e7cf2c0b222d80c566c5f255c63cb339f65bfd02e471a720f28e4864a9f08",
+    "data/catalog-summary.json": "b27655fbce8fec64b7ab7ec6ac11f079a0e6ab29a5c2785d624cedc96dd0742f",
+    "data/charts.csv": "4115cf1120680f2cedef0676cb648f30c7ef4699e2a947535d4113e71ed3b12a",
+    "data/colors.csv": "8162429222bce22df62b564085946a30d07cc9722c58d0a3a494bd0d1d00841c",
+    "data/data-provenance.json": "e29a3aab8d8418a23f67e00a8e8f3064afe4eea1183540ec4af374ec6f4fc938",
+    "data/google-font-licenses.json": "35688523f2955795caa1a47c53b83099e60c1708461476f9cc3a050cf3b0148a",
+    "data/google-fonts.csv": "1c8c3b2ea1faf6a1012da463756def8b3889db33f2226f0343bb4daa80307d03",
+    "data/icons.csv": "50816c6012030178195a16ee481ebf58b47bd985d70e8ec58886cc83f6eddafc",
+    "data/landing.csv": "9a2edd3bb676c2a58f00ade7a062e285222d4297bfd847c8d5b056f0dbbf52d0",
+    "data/motion.csv": "381affe8df8ea1f66fbbda2598827f9f54299107bbe6a1b4e9b68f6b62091ceb",
+    "data/phosphor-icons-upstream.json": "2399325233b277b5c97a80e6a5e8941154f5d057beee4e7613db87c87d700236",
+    "data/products.csv": "5756125e2b0e0d2360926f175d0975c8cd846c7589e5e2ce02631ff645e66361",
+    "data/react-performance.csv": "3d925802539abac5afeb63ae8aa1960b7229ad271b3a47caed40ab2d97ad0734",
+    "data/stacks/angular.csv": "704be83f2bad30c7e6de01afb113ffa01e0c458762f48b7102f31ba2367b5553",
+    "data/stacks/astro.csv": "2c2f55fadaafc05e04cc321c8194a1a28b656e6757fe2ba316f41b16428299c6",
+    "data/stacks/avalonia.csv": "442fca14675a020683473e7e49f08abb27b9df0765c80efe54aef61f1a4ac258",
+    "data/stacks/flutter.csv": "64dba0ac17349f28bce517a0f5f48c54d9ed2e487ec0c0258303463b382f41a0",
+    "data/stacks/html-tailwind.csv": "d05a581d20af57b8ca0104a6d31d90a07c437d500662a96c3029fc2f9a4678ee",
+    "data/stacks/javafx.csv": "2e819b8d5abdd23ad4dae0991650fdb57af497aabd68b37463aa9c442944c869",
+    "data/stacks/jetpack-compose.csv": "699de218b286948eaec7d15767b6e1350ee299167e49bf476d82e3ff58724e0a",
+    "data/stacks/laravel.csv": "854ea4daa5fc61292d22235ad33b49ba3fe22423c3de8d3cb03758ffed3b59f9",
+    "data/stacks/nextjs.csv": "ecd2c27b2ea0127d203ae726060efcdd7335b5e83f96b99e4f3befbbfeebd5a4",
+    "data/stacks/nuxt-ui.csv": "9c0179d559abe39ad63b958b54cb29c82be1dd20706430476096ea8967bfa328",
+    "data/stacks/nuxtjs.csv": "3d9b54ed2d151bd9c86e9e5609b8a6f88a00c4c52fa601a30af96c49b2c4d176",
+    "data/stacks/react-native.csv": "ba31dd9c0c04da6bc02a74448bf121f9c0728ae5ba3b4d47b487778b0a1135b5",
+    "data/stacks/react.csv": "4dd176a9787e5c6306b5df94158d75955adcdc6edab41ce5286641a5842303c1",
+    "data/stacks/shadcn.csv": "e56cfde5b74907836ac3582a4779d5b7f3d206a702ab81b8669a1b668c3eeb51",
+    "data/stacks/svelte.csv": "f6e379ba802941ba26b01d4ffbe3cd39120f2587659a1d93851c707f66bc13db",
+    "data/stacks/swiftui.csv": "bdd9231ff3ad658f4e7c063e1eb49df2fd09ac8d90631a86df899b39833b9623",
+    "data/stacks/threejs.csv": "155d583b9c64da0df4b6c6cb060c02eab222505e0734d6353da02c9e2b5d982b",
+    "data/stacks/uno.csv": "a0474363e4225b5367214d5675fd3e075f137026f9500f0d04357882ef4f6d48",
+    "data/stacks/uwp.csv": "c409f08c1fbba1f1029f1acaa554e7b4471cc85517a5751c9f2e62465badcd5c",
+    "data/stacks/vue.csv": "b655f1ebb9dff2652d15981f31b1784c8a6d4759efd2815a14f3088257569f95",
+    "data/stacks/winui.csv": "e676dc1c13ee6c205c40b0746f1335150a346c7a49a0616d2545bc3d2c930c85",
+    "data/stacks/wpf.csv": "9781a9950b20333637b30a02e498b7efca21b618a3eeb8665836f3ac6e974da7",
+    "data/styles.csv": "a9b6cadbd1cb9e7cb8398a3b445e0691d01e42ed5e5efa60a5d0c08c99c8100d",
+    "data/typography.csv": "321fc446e89024488ebae96dda93efc4d2307bd8bddb240857ad51364f6782c8",
+    "data/ui-reasoning.csv": "f0774dd741cecdad5eec842034bd6d5e9ea50e9f220a1910069748daa0bb8e9a",
+    "data/ux-guidelines.csv": "d63dc39439cf615cdccfdf7acd2301e0c3ce5e1e56a89b60617fa190f7511512",
+    "references/pro-rules.md": "d28442d61c310b49c054a4ea736f89fb3008beebdbbc38c4b3a540b8f7fadf23",
+    "references/quick-reference.md": "fc53ccfafaa08d40d7326e34e88e9387df60b4256cd649d34dcae0284f247949",
+    "scripts/core.py": "caf92bdcf2579c9a7d6af4f53c54ee9d3c8f05472cfab77aaec38bef120ec63e",
+    "scripts/design_system.py": "e7d1c94c4b2eada17c5551157668362659ccf9626d34dbd58e68142410f90103",
+    "scripts/reasoning_contract.py": "b8bac1af82aa280d3e06f00aabaeac4337e632996b07fed874e2b6ee6e9c5913",
+    "scripts/search.py": "9fd5acc991142fd43c3afe7be0f6720911b668f3988b34e74b5cbc41d58e7947",
+    "scripts/tests/fixtures/catalogs/google-api.json": "22d8dc81a7d6827b7e8b64b53e7d184210fb9759e8e294e0d5133c81cc460176",
+    "scripts/tests/fixtures/catalogs/google-catalog.json": "c608ad5c4084ebc50a4bbbfb69ea2456c01fd5519c457e18410fffd250ae948f",
+    "scripts/tests/fixtures/catalogs/google-existing.csv": "4e0761b839dc6b2187a370e82eddc0aed8a7ff10c09e28dd814bb3656dac595b",
+    "scripts/tests/fixtures/catalogs/google-metadata.json": "30bffc29ae348416a2de2f9c6c418e768e4578f136b0f4bac5d2f70124f2e9ba",
+    "scripts/tests/fixtures/catalogs/google-overrides.json": "6243a48a4619986768c4628e2d0c98ff195beba71ba9be5df8f0c52fc6d90c0b",
+    "scripts/tests/fixtures/catalogs/icons-curated.csv": "68362c9a700c13b96f000784a0198c1c7e117a7088a01c85744e44233038fe9d",
+    "scripts/tests/fixtures/catalogs/phosphor-core.json": "ae4d0bb076240824e1b643c2270d1f8cc0952a69502ec1e622b7dedd85b930bb",
+    "scripts/tests/fixtures/catalogs/phosphor-package.json": "500588c757d6de03e3d7e69b27a8b8b1f88ccf6bb0333e4c1e9b0d6a4f112475",
+    "scripts/tests/fixtures/catalogs/phosphor-react-exports.json": "d79f2ee0afdbc2f87776733e145df3538a16a25d7c2fba0056bb48295dad0ded",
+    "scripts/tests/fixtures/catalogs/phosphor-react-package.json": "1c57a1d76bcc0cdd3632d4c18b9c0e79576b4591df39831c9607e5d0eb4f2cec",
+    "scripts/tests/fixtures/relevance-baseline.json": "0df200fc54c1cb97a52d6775e7f501509163cea8f8b73fd7268429bc1f835afe",
+    "scripts/tests/fixtures/relevance-cases.json": "e77d36eebbf6ddc2860946a02cdb659351da6c09f2688f1ed30939a418099646",
+    "scripts/tests/fixtures/relevance-thresholds.json": "8b1d1c87cecb51db673b7d50e5f6cf29169edfa857853accd1ed80fce3fb4e09",
+    "scripts/tests/test_catalog_refresh.py": "3e2ca5d12702318f641ae62d0c14f22a3bcc84d84e79b863c0e947d475604adb",
+    "scripts/tests/test_catalog_summary_line_endings.py": "fa6ff09f0ec2c99013588c77397f5082dddebe8f467e94c5f8378ec9595f4989",
+    "scripts/tests/test_core.py": "3527fe2f4b852f69f07c17ddc0d615d9a6e025c924e45a33985579a94a8d2118",
+    "scripts/tests/test_core_data_quality.py": "3ffc6b4905c9ea26d7ac4527ab154d153584231aee71b2ae4bd017977fa09cc5",
+    "scripts/tests/test_data_contracts.py": "0360d6e10080c0bca214f2b0bbad582ba50702a542ce21013351aca54938df3a",
+    "scripts/tests/test_design_system_mode.py": "95ad2c154349f7021f55a558f8dcdd71df1a24fcf531a4364a8e49526a0865ef",
+    "scripts/tests/test_design_system_stack.py": "83d09ffe8cfbf7b265f362129f061dfe8e5e167ce5db43adaead197cabc9ca38",
+    "scripts/tests/test_ime_composition.py": "6718a0420a5c791c912763ad9d1b66e824b3b55240bc91242a5cccf13482416d",
+    "scripts/tests/test_native_desktop_stack_freshness.py": "3942845712b9a829323cd3568511483135f2a8c7cd79ccf61679da4b0f624dbb",
+    "scripts/tests/test_relevance_evaluator.py": "2fe56a4d6fe5fff15ff592274b0eeaba925146cefea6c0fa29d8f1b77c9aca1f",
+    "scripts/tests/test_rtl_support.py": "fb1c42f782d1929959c5adaefb8169b187b1446a17720ed4f0691b1cd3bb7898",
+    "scripts/tests/test_skill_script_paths.py": "7cec24b94be771bc60bc84f8993e614bb16d4047930e1dd3d3bed91628311d44",
+    "scripts/tests/test_style_taxonomy.py": "58c14be6c741de5382e3aeca858480570ba96d374532c3b22f44851a02d3076b",
+    "scripts/tests/test_text_layout_resilience.py": "b51d32ee8a15505b87cb81957fb2d1b385e041e8beb4463c311d236bfd29ebd4",
+    "scripts/tests/test_web_stack_freshness.py": "83a6d597410f442441cdb17d0913be151404a608ada6a2487dd2bfe2fbf31e5d",
+    "scripts/validate_data.py": "a599aa256049cf30954d1f164721b99e453eb7e4cb8241bcab2d5573e6cf58b8"
+  },
+  "using-git-worktrees": {
+    "SKILL.md": "8cfb86f121269e8f7f12361e6795c4f6738828340e28964c9229d365666c9edd"
+  },
+  "using-superpowers": {
+    "SKILL.md": "82c5c8866ad7f5dd4440ce66bd7806ba48a2f13771beae5cf112e53f08fe36ba",
+    "references/antigravity-tools.md": "4880f6de3da4e32f9659ebe7a72b9e0ebfff04e028c2ed96173f86d0387a04c0",
+    "references/claude-code-tools.md": "21479a3fee27448cab8748a3b5687e53bb257883bda9c070426f9a1ab5cebf1b",
+    "references/codex-tools.md": "1a38ad9b188c393052f58d95657a1c35ea6aafc8b5a27f198f3922912f70bbe7",
+    "references/gemini-tools.md": "62b9157bcb0ee3c6784e3d0da0798ddfa5872f9e0c34bea48f3079dabea71965",
+    "references/hermes-tools.md": "e2185c976a3c87503910e05e2aea58cc89bc8e569bb624b93df9958ac47a9190",
+    "references/muse-tools.md": "5a1da5c575fe18456ca71cd47ebfd8a38c745f8d82a67fe64d5b83080000eeb3",
+    "references/pi-tools.md": "703dbc83d23ecab9c6f388460c38abc482e9dee2fe6772a8c7a255152ad3a4d5"
+  },
+  "verification-before-completion": {
+    "SKILL.md": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3"
+  },
+  "video": {
+    "SKILL.md": "1f0ee7367c731cbbd760c63c308b4e9e3aeebe94a03f2f31aa2c23309f9723a8",
+    "evals/evals.json": "9af22d18b221899d0f803dbaa87552c5bb1cf0d68385608a8ff3be0a30f9624c",
+    "references/ai-video-prompting.md": "210eaecc05367aacbaf35660ed7352809e31fb326123d0cfd6ab03c09681d13e",
+    "references/code-rendered-product-films.md": "d16af2f7b651c38383cc6c4f869cb19dac3dcce91cddae295f72edac44d80e05",
+    "references/edit-anatomy.md": "3d59e1f01d46eb04bcdbf88e2165bbf5aa80f626beb955522432ec4aede3c9fb",
+    "references/product-demo-recording.md": "4bbc44e02f963df8c36e06d96ae195d3e8af911f604cb08fd7b7ea72c974fba5"
+  },
+  "video-editing": {
+    "SKILL.md": "4ab8c9ef5a511e8a0de9ed375b9edbbfa74f23a0881519d2aceea67e7252b197",
+    "assets/fusion/ito-production-v1/ITO_PROD_HighlightBloom.setting": "859f20d4c3e29a91367cc0c1e4472be5f85919d7953957549a0afde5bac74ba1",
+    "assets/fusion/ito-production-v1/ITO_PROD_LumaHalo.setting": "fa767774ef6a20d52422f8dfea7f1577a1308261212d730cdba39a4df2169186",
+    "assets/fusion/ito-production-v1/ITO_PROD_RGBFringe.setting": "81aa1cde3412782d6ec4e0ca815ba52f1eaca1065df96d813a0885f72a9add9b",
+    "assets/fusion/ito-production-v1/README.md": "fbae2d79d7f0ac1bdf0ac5c8b2ffb969f7737321e3e8f87faa5d7d12b9e3181e",
+    "assets/fusion/ito-production-v1/install_ito_production_v1.lua": "fcde297435ac97ae7b9f01b65615ed7b0cd6622774a9952b1a041d642808d2b8",
+    "assets/fusion/ito-production-v1/provenance.json": "04f255db2e35f3bf062faf183a0ac1cfadede5c5a8b9fbcb1b813b7f600c06c6",
+    "assets/fusion/ito-v28/ITO_V28_FlashEtherealBloom.setting": "6bc178e29cc1a39458f58d53d397357eb8ecb4510780d5993fb25cef30b26d47",
+    "assets/fusion/ito-v28/ITO_V28_RGBDisplacement.setting": "66598d0c60e8551e1704932ef014691fc8cd684d50f1bf0646b39e3d2f4ccf36",
+    "assets/fusion/ito-v28/ITO_V28_SubjectHalo.setting": "ac70fca7f622da29ad34963a737f668c73b526a7852c2504f66b719d2c14b638",
+    "assets/fusion/ito-v28/README.md": "b24ba1f873aa5f4bb178719995b0f06af6c6d5a46c5e48daaa79e4d562fff2f1",
+    "assets/fusion/ito-v28/install_ito_v28.lua": "b111d9ed0773e29682a8e426fa9f65099022cfac3de4330db187e9303d4a0dd4",
+    "assets/fusion/ito-v28/provenance.json": "9306a1b61b1c4b1b4c28b2e2a223894558e3dfa8da53b5f884c6e0fcf81c7594"
+  },
+  "writing-plans": {
+    "SKILL.md": "a6c67c1900064347c2a329990dd3c555657c51c3ec53b259a08aa01a2c26139a"
+  },
+  "writing-skills": {
+    "SKILL.md": "8cb3ac68c6d8c4bb46886b998b09af7989643cab8bd0e46ee86dd62e64546bbe",
+    "references/CLAUDE_MD_TESTING.md": "0b379a3415e185d3c434b3ad283d8aa132f3022c2a4f210f168865b5986bcef0",
+    "references/anthropic-best-practices.md": "217629b356c09c9bd11017c9788e8fc654ca1b32c92d4a51cd490e16dd65e59a",
+    "references/bulletproofing.md": "9397023e6bc85b556a57f3097371363bf03e28e755c57f403f470bcda90e0a23",
+    "references/discovery.md": "c6bbc74af3be90f693f7cbc986af6fa94e8df75f65109b52e96032587f5b92af",
+    "references/flowcharts.md": "8b1f542391f274f0d33f3457ac099a3d317d6877eaa3b8d3b1ebef151b55fda7",
+    "references/graphviz-conventions.dot": "e2890a593c91370e384b42f2f67b1a6232c9e69dddea7891a0c1c46d7b20b694",
+    "references/persuasion-principles.md": "a51bc9bf75189ea73a27b3fb504a2fdfdb966fb1f7f1cdf03203230a216ccc03",
+    "references/testing-skills-with-subagents.md": "ed8a6862c085900135962390530d9dc7637ad6d650b4324ce3b051287a5c3f22",
+    "render-graphs.js": "c7f412cc629461c4d10287e668731874c0497707023e3e3f74a5355eb2cee196"
+  }
+}

@@ -41,6 +41,10 @@ scripts/import-skill.sh ~/.claude/skills <skill> <category>      # copy a local 
 
 `link-skills.sh` moves anything it replaces to `~/.claude/skills.backup/<timestamp>/`, removes links to skills deleted from the repo, and leaves all other entries untouched. Run `link-skills.sh` again after an import so the local copy becomes a link. Any skills directory works as the target, e.g. `~/.agents/skills`. Use either the local links or the Claude Code plugins, not both, to avoid duplicate skills.
 
+## Maintenance
+
+See [maintenance/README.md](maintenance/README.md) for the pinned CLI staging workflow, conflict handling, and weekly commit/push safeguards.
+
 ## Layout
 
 ```
